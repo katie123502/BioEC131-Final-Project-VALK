@@ -1,43 +1,21 @@
 # BioEC131-Final-Project-VALK
 
 DELETE THIS LATER, LAB 8 REFERENCE: https://github.com/bioe131/lab-8-katie123502/blob/main/README.md
+JBROWSE2 DOCKER SETUP: https://github.com/laceysanderson/jbrowse2play
 
 After cloning this repo to your local computer, please complete the following steps:
 
-##1. Set-Up (follow the steps that apply for your operating system)
-
-###Mac OS (Intel or M1)
-
-Check if you have homebrew installed by running:
-
-```
-brew help
-```
-
-If your output says `command not found`, run the following to download homebrew:
-```
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-```
-
-For more assistance in the case of any errors, visit https://docs.brew.sh/Installation 
-
-
-###Windows (Windows 10 or later)
-###AWS Setup
-###Linuxbrew for WSL or AWS
-
-##2. Tool Installation
+## 1. Tool Installations
 
 UPDATE THIS LATER WITH ADDITIONAL TOOLS WE WANT
 
-##3. Apache Server Setup
-
-##4. Download and Process Test Data
+## 2. Download and Process Test Data
 
 Run the following to download and process the test data: 
 ```
 ./setup.sh
 ```
+## 3. Set up JBrowse2 through Docker
 
-##5. Explore herpesvirus!
+## Explore herpesvirus!
 
