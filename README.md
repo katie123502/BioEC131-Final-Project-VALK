@@ -5,6 +5,10 @@ JBROWSE2 DOCKER SETUP: https://github.com/laceysanderson/jbrowse2play
 
 Please complete the following steps in your terminal:
 
+## Pre-reqs before starting:
+
+· Download Docker: https://docs.docker.com/get-started/get-docker/ 
+
 ## 1. Clone this repo to your local computer
 
 ```
