@@ -3,19 +3,22 @@
 DELETE THIS LATER, LAB 8 REFERENCE: https://github.com/bioe131/lab-8-katie123502/blob/main/README.md
 JBROWSE2 DOCKER SETUP: https://github.com/laceysanderson/jbrowse2play
 
-After cloning this repo to your local computer, please complete the following steps:
+Please complete the following steps in your terminal:
 
-## 1. Tool Installations
+## 1. Clone this repo to your local computer
 
-UPDATE THIS LATER WITH ADDITIONAL TOOLS WE WANT
-
-## 2. Download and Process Test Data
-
-Run the following to download and process the test data: 
 ```
+git clone https://github.com/katie123502/BioEC131-Final-Project-VALK.git
+cd BioEC131-Final-Project-VALK
+```
+
+## 2. Run the set up script
+
+```
+chmod +x setup.sh
 ./setup.sh
 ```
-## 3. Set up JBrowse2 through Docker
 
-## Explore herpesvirus!
+## 3. Explore herpesvirus!
 
+Access JBrowse2 to explore herpesvirus at http://localhost:8080
