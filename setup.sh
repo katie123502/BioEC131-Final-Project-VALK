@@ -1,18 +1,13 @@
 #!/bin/bash
 
 # Variables
-DOCKER_IMAGE="gmod/jbrowse-web"
+DOCKER_IMAGE="herpes-jbrowse"  # Custom Docker image name
+DOCKERFILE_PATH="." 
 DATA_URL="herpes-genomes" # Replace with your dataset URL
 DATA_DIR="my-jbrowse-data"
 CONTAINER_NAME="jbrowse"
 
 # Functions
-
-#TODO: UPDATE WITH OTHER TOOLS WE WANT
-#QUESTION: should this be in the Dockerfile
-check_additional_tools_installed(){ 
-
-}
 
 check_docker_installed() {
   if ! command -v docker &>/dev/null; then
@@ -34,10 +29,12 @@ download_dataset() {
     cp -r $DATA_URL my-jbrowse-data
 }
 
-run_docker_container() {
-  echo "Pulling the Docker image..."
-  docker pull $DOCKER_IMAGE
+build_docker_image() {
+  echo "Building the custom Docker image..."
+  docker build -t $DOCKER_IMAGE $DOCKERFILE_PATH
+}
 
+run_docker_container() {
   echo "Running the Docker container..."
   docker run -d \
     --name $CONTAINER_NAME \
@@ -58,9 +55,6 @@ cleanup_existing_container() {
 # Main Script Execution
 echo "Starting JBrowse2 setup..."
 
-#Check if additional tools are installed
-check_additional_tools_installed
-
 # Check if Docker is installed
 check_docker_installed
 
@@ -69,6 +63,9 @@ download_dataset
 
 # Stop and remove any existing JBrowse container
 cleanup_existing_container
+
+# Build the custom Docker image
+build_docker_image
 
 # Run the JBrowse Docker container
 run_docker_container
