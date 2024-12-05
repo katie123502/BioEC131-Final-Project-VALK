@@ -1,0 +1,227 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region U43400.1 1 144861
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=10372
+
+U43400.1	Genbank	region	1	144861	.	+	.	ID=U43400.1:1..144861;Dbxref=taxon:10372;gb-acronym=HHV-7;gbkey=Src;mol_type=genomic DNA;note=sequence compiled by sequencing cloned HHV-7 restriction fragments;old-name=Human herpesvirus 7;strain=JI
+U43400.1	Genbank	CDS	33	542	.	+	0	ID=cds-AAC54658.1;Parent=gene-H1;Dbxref=NCBI_GP:AAC54658.1;Name=AAC54658.1;gbkey=CDS;gene=H1;partial=true;product=AAC54658.1;protein_id=AAC54658.1;start_range=.,33
+U43400.1	Genbank	gene	33	542	.	+	.	ID=gene-H1;Name=H1;gbkey=Gene;gene=H1;gene_biotype=protein_coding
+U43400.1	Genbank	CDS	368	826	.	+	0	ID=cds-AAC54659.1;Parent=gene-DR1;Dbxref=NCBI_GP:AAC54659.1;Name=AAC54659.1;gbkey=CDS;gene=DR1;partial=true;product=AAC54659.1;protein_id=AAC54659.1;start_range=.,368
+U43400.1	Genbank	gene	368	826	.	+	.	ID=gene-DR1;Name=DR1;gbkey=Gene;gene=DR1;gene_biotype=protein_coding
+U43400.1	Genbank	CDS	898	2100	.	+	0	ID=cds-AAC54660.1;Parent=gene-DR2;Dbxref=NCBI_GP:AAC54660.1;Name=AAC54660.1;gbkey=CDS;gene=DR2;partial=true;product=AAC54660.1;protein_id=AAC54660.1;start_range=.,898
+U43400.1	Genbank	gene	898	2100	.	+	.	ID=gene-DR2;Name=DR2;gbkey=Gene;gene=DR2;gene_biotype=protein_coding
+U43400.1	Genbank	CDS	2267	2506	.	+	0	ID=cds-AAC54661.1;Parent=gene-H2;Dbxref=NCBI_GP:AAC54661.1;Name=AAC54661.1;gbkey=CDS;gene=H2;product=AAC54661.1;protein_id=AAC54661.1
+U43400.1	Genbank	gene	2267	2506	.	+	.	ID=gene-H2;Name=H2;gbkey=Gene;gene=H2;gene_biotype=protein_coding
+U43400.1	Genbank	CDS	2562	3050	.	+	0	ID=cds-AAC54662.1;Parent=gene-DR6;Dbxref=NCBI_GP:AAC54662.1;Name=AAC54662.1;gbkey=CDS;gene=DR6;product=AAC54662.1;protein_id=AAC54662.1
+U43400.1	Genbank	gene	2562	3050	.	+	.	ID=gene-DR6;Name=DR6;gbkey=Gene;gene=DR6;gene_biotype=protein_coding
+U43400.1	Genbank	CDS	3122	3910	.	+	0	ID=cds-AAC54663.1;Parent=gene-DR7;Dbxref=NCBI_GP:AAC54663.1;Name=AAC54663.1;gbkey=CDS;gene=DR7;product=AAC54663.1;protein_id=AAC54663.1
+U43400.1	Genbank	gene	3122	3910	.	+	.	ID=gene-DR7;Name=DR7;gbkey=Gene;gene=DR7;gene_biotype=protein_coding
+U43400.1	Genbank	CDS	3976	4224	.	-	0	ID=cds-AAC54664.1;Parent=gene-H3;Dbxref=NCBI_GP:AAC54664.1;Name=AAC54664.1;gbkey=CDS;gene=H3;product=AAC54664.1;protein_id=AAC54664.1
+U43400.1	Genbank	gene	3976	4224	.	-	.	ID=gene-H3;Name=H3;gbkey=Gene;gene=H3;gene_biotype=protein_coding
+U43400.1	Genbank	CDS	4449	4745	.	-	0	ID=cds-AAC54665.1;Parent=gene-H4;Dbxref=NCBI_GP:AAC54665.1;Name=AAC54665.1;gbkey=CDS;gene=H4;product=AAC54665.1;protein_id=AAC54665.1
+U43400.1	Genbank	gene	4449	4745	.	-	.	ID=gene-H4;Name=H4;gbkey=Gene;gene=H4;gene_biotype=protein_coding
+U43400.1	Genbank	CDS	6338	7417	.	-	0	ID=cds-AAC54666.1;Parent=gene-U2;Dbxref=NCBI_GP:AAC54666.1;Name=AAC54666.1;gbkey=CDS;gene=U2;product=AAC54666.1;protein_id=AAC54666.1
+U43400.1	Genbank	gene	6338	7417	.	-	.	ID=gene-U2;Name=U2;gbkey=Gene;gene=U2;gene_biotype=protein_coding
+U43400.1	Genbank	CDS	7578	8732	.	-	0	ID=cds-AAC54667.1;Parent=gene-U3;Dbxref=NCBI_GP:AAC54667.1;Name=AAC54667.1;gbkey=CDS;gene=U3;product=AAC54667.1;protein_id=AAC54667.1
+U43400.1	Genbank	gene	7578	8732	.	-	.	ID=gene-U3;Name=U3;gbkey=Gene;gene=U3;gene_biotype=protein_coding
+U43400.1	Genbank	CDS	8754	10382	.	-	0	ID=cds-AAC54668.1;Parent=gene-U4;Dbxref=NCBI_GP:AAC54668.1;Name=AAC54668.1;gbkey=CDS;gene=U4;product=AAC54668.1;protein_id=AAC54668.1
+U43400.1	Genbank	gene	8754	10382	.	-	.	ID=gene-U4;Name=U4;gbkey=Gene;gene=U4;gene_biotype=protein_coding
+U43400.1	Genbank	CDS	10407	13004	.	-	0	ID=cds-AAC54669.1;Parent=gene-U5/7;Dbxref=NCBI_GP:AAC54669.1;Name=AAC54669.1;gbkey=CDS;gene=U5/7;product=AAC54669.1;protein_id=AAC54669.1
+U43400.1	Genbank	gene	10407	13004	.	-	.	ID=gene-U5/7;Name=U5/7;gbkey=Gene;gene=U5/7;gene_biotype=protein_coding
+U43400.1	Genbank	CDS	13174	14262	.	-	0	ID=cds-AAC54670.1;Parent=gene-U8;Dbxref=NCBI_GP:AAC54670.1;Name=AAC54670.1;gbkey=CDS;gene=U8;product=AAC54670.1;protein_id=AAC54670.1
+U43400.1	Genbank	gene	13174	14262	.	-	.	ID=gene-U8;Name=U8;gbkey=Gene;gene=U8;gene_biotype=protein_coding
+U43400.1	Genbank	CDS	14608	15963	.	+	0	ID=cds-AAC54671.1;Parent=gene-U10;Dbxref=NCBI_GP:AAC54671.1;Name=AAC54671.1;gbkey=CDS;gene=U10;product=AAC54671.1;protein_id=AAC54671.1
+U43400.1	Genbank	gene	14608	15963	.	+	.	ID=gene-U10;Name=U10;gbkey=Gene;gene=U10;gene_biotype=protein_coding
+U43400.1	Genbank	CDS	15982	18249	.	-	0	ID=cds-AAC54672.1;Parent=gene-U11;Dbxref=NCBI_GP:AAC54672.1;Name=AAC54672.1;Note=similar to pp100 of HHV6%2C GenBank Accession Number X83413;gbkey=CDS;gene=U11;product=structural phosphoprotein;protein_id=AAC54672.1
+U43400.1	Genbank	gene	15982	18249	.	-	.	ID=gene-U11;Name=U11;gbkey=Gene;gene=U11;gene_biotype=protein_coding
+U43400.1	Genbank	CDS	18396	19436	.	+	0	ID=cds-AAC54673.1;Parent=gene-U12;Dbxref=NCBI_GP:AAC54673.1;Name=AAC54673.1;gbkey=CDS;gene=U12;product=G protein-coupled receptor (GCR);protein_id=AAC54673.1
+U43400.1	Genbank	gene	18396	19436	.	+	.	ID=gene-U12;Name=U12;gbkey=Gene;gene=U12;gene_biotype=protein_coding
+U43400.1	Genbank	CDS	19521	19817	.	+	0	ID=cds-AAC54674.1;Parent=gene-U13;Dbxref=NCBI_GP:AAC54674.1;Name=AAC54674.1;gbkey=CDS;gene=U13;product=AAC54674.1;protein_id=AAC54674.1
+U43400.1	Genbank	gene	19521	19817	.	+	.	ID=gene-U13;Name=U13;gbkey=Gene;gene=U13;gene_biotype=protein_coding
+U43400.1	Genbank	CDS	19885	21831	.	+	0	ID=cds-AAC54675.1;Parent=gene-U14;Dbxref=NCBI_GP:AAC54675.1;Name=AAC54675.1;gbkey=CDS;gene=U14;product=AAC54675.1;protein_id=AAC54675.1
+U43400.1	Genbank	gene	19885	21831	.	+	.	ID=gene-U14;Name=U14;gbkey=Gene;gene=U14;gene_biotype=protein_coding
+U43400.1	Genbank	CDS	22244	22564	.	-	0	ID=cds-AAC54676.1;Parent=gene-U15;Dbxref=NCBI_GP:AAC54676.1;Name=AAC54676.1;gbkey=CDS;gene=U15;product=AAC54676.1;protein_id=AAC54676.1
+U43400.1	Genbank	gene	22244	22564	.	-	.	ID=gene-U15;Name=U15;gbkey=Gene;gene=U15;gene_biotype=protein_coding
+U43400.1	Genbank	CDS	22772	23547	.	-	2	ID=cds-AAC54677.1;Parent=gene-U17Ex;Dbxref=NCBI_GP:AAC54677.1;Name=AAC54677.1;gbkey=CDS;gene=U17Ex;product=AAC54677.1;protein_id=AAC54677.1
+U43400.1	Genbank	exon	22772	23547	.	-	.	ID=id-U17Ex-2;Parent=gene-U17Ex;Note=U16-U17 spliced exon;exon_number=2;gbkey=exon;gene=U17Ex;number=2
+U43400.1	Genbank	gene	22772	23836	.	-	.	ID=gene-U17Ex;Name=U17Ex;gbkey=Gene;gene=U17Ex;gene_biotype=protein_coding
+U43400.1	Genbank	CDS	23570	23836	.	-	0	ID=cds-AAC54678.1;Parent=gene-U17;Dbxref=NCBI_GP:AAC54678.1;Name=AAC54678.1;gbkey=CDS;gene=U17;product=AAC54678.1;protein_id=AAC54678.1
+U43400.1	Genbank	gene	23570	23836	.	-	.	ID=gene-U17;Name=U17;gbkey=Gene;gene=U17;gene_biotype=protein_coding
+U43400.1	Genbank	CDS	23620	23836	.	-	0	ID=cds-AAC54677.1;Parent=gene-U17Ex;Dbxref=NCBI_GP:AAC54677.1;Name=AAC54677.1;gbkey=CDS;gene=U17Ex;product=AAC54677.1;protein_id=AAC54677.1
+U43400.1	Genbank	exon	23620	23836	.	-	.	ID=id-U17Ex-1;Parent=gene-U17Ex;Note=U16-U17 spliced exon;exon_number=1;gbkey=exon;gene=U17Ex;number=1
+U43400.1	Genbank	CDS	24318	24587	.	+	0	ID=cds-AAC54679.1;Parent=gene-U17a;Dbxref=NCBI_GP:AAC54679.1;Name=AAC54679.1;gbkey=CDS;gene=U17a;product=AAC54679.1;protein_id=AAC54679.1
+U43400.1	Genbank	gene	24318	24587	.	+	.	ID=gene-U17a;Name=U17a;gbkey=Gene;gene=U17a;gene_biotype=protein_coding
+U43400.1	Genbank	CDS	24713	25600	.	-	0	ID=cds-AAC54680.1;Parent=gene-U18;Dbxref=NCBI_GP:AAC54680.1;Name=AAC54680.1;gbkey=CDS;gene=U18;product=AAC54680.1;protein_id=AAC54680.1
+U43400.1	Genbank	gene	24713	25600	.	-	.	ID=gene-U18;Name=U18;gbkey=Gene;gene=U18;gene_biotype=protein_coding
+U43400.1	Genbank	CDS	25945	26922	.	-	0	ID=cds-AAC54681.1;Parent=gene-U19;Dbxref=NCBI_GP:AAC54681.1;Name=AAC54681.1;gbkey=CDS;gene=U19;product=AAC54681.1;protein_id=AAC54681.1
+U43400.1	Genbank	gene	25945	26922	.	-	.	ID=gene-U19;Name=U19;gbkey=Gene;gene=U19;gene_biotype=protein_coding
+U43400.1	Genbank	CDS	27036	28211	.	-	0	ID=cds-AAC54682.1;Parent=gene-U20;Dbxref=NCBI_GP:AAC54682.1;Name=AAC54682.1;gbkey=CDS;gene=U20;product=AAC54682.1;protein_id=AAC54682.1
+U43400.1	Genbank	gene	27036	28211	.	-	.	ID=gene-U20;Name=U20;gbkey=Gene;gene=U20;gene_biotype=protein_coding
+U43400.1	Genbank	CDS	28202	29494	.	-	0	ID=cds-AAC54683.1;Parent=gene-U21;Dbxref=NCBI_GP:AAC54683.1;Name=AAC54683.1;gbkey=CDS;gene=U21;product=AAC54683.1;protein_id=AAC54683.1
+U43400.1	Genbank	gene	28202	29494	.	-	.	ID=gene-U21;Name=U21;gbkey=Gene;gene=U21;gene_biotype=protein_coding
+U43400.1	Genbank	CDS	29903	30418	.	-	0	ID=cds-AAC54684.1;Parent=gene-U23;Dbxref=NCBI_GP:AAC54684.1;Name=AAC54684.1;gbkey=CDS;gene=U23;product=AAC54684.1;protein_id=AAC54684.1
+U43400.1	Genbank	gene	29903	30418	.	-	.	ID=gene-U23;Name=U23;gbkey=Gene;gene=U23;gene_biotype=protein_coding
+U43400.1	Genbank	CDS	30524	30772	.	-	0	ID=cds-AAC54685.1;Parent=gene-U24;Dbxref=NCBI_GP:AAC54685.1;Name=AAC54685.1;gbkey=CDS;gene=U24;product=AAC54685.1;protein_id=AAC54685.1
+U43400.1	Genbank	gene	30524	30772	.	-	.	ID=gene-U24;Name=U24;gbkey=Gene;gene=U24;gene_biotype=protein_coding
+U43400.1	Genbank	CDS	30776	31129	.	-	0	ID=cds-AAC54686.1;Parent=gene-U24a;Dbxref=NCBI_GP:AAC54686.1;Name=AAC54686.1;gbkey=CDS;gene=U24a;product=AAC54686.1;protein_id=AAC54686.1
+U43400.1	Genbank	gene	30776	31129	.	-	.	ID=gene-U24a;Name=U24a;gbkey=Gene;gene=U24a;gene_biotype=protein_coding
+U43400.1	Genbank	CDS	30936	31898	.	-	0	ID=cds-AAC54687.1;Parent=gene-U25;Dbxref=NCBI_GP:AAC54687.1;Name=AAC54687.1;gbkey=CDS;gene=U25;product=AAC54687.1;protein_id=AAC54687.1
+U43400.1	Genbank	gene	30936	31898	.	-	.	ID=gene-U25;Name=U25;gbkey=Gene;gene=U25;gene_biotype=protein_coding
+U43400.1	Genbank	CDS	31988	32869	.	-	0	ID=cds-AAC54688.1;Parent=gene-U26;Dbxref=NCBI_GP:AAC54688.1;Name=AAC54688.1;gbkey=CDS;gene=U26;product=AAC54688.1;protein_id=AAC54688.1
+U43400.1	Genbank	gene	31988	32869	.	-	.	ID=gene-U26;Name=U26;gbkey=Gene;gene=U26;gene_biotype=protein_coding
+U43400.1	Genbank	CDS	32857	33951	.	-	0	ID=cds-AAC54689.1;Parent=gene-U27;Dbxref=NCBI_GP:AAC54689.1;Name=AAC54689.1;Note=similar to pp41 of HHV6%2C GenBank Accession Number X83413;gbkey=CDS;gene=U27;product=polymerase processivity factor;protein_id=AAC54689.1
+U43400.1	Genbank	gene	32857	33951	.	-	.	ID=gene-U27;Name=U27;gbkey=Gene;gene=U27;gene_biotype=protein_coding
+U43400.1	Genbank	CDS	34064	36484	.	-	0	ID=cds-AAC54690.1;Parent=gene-U28;Dbxref=NCBI_GP:AAC54690.1;Name=AAC54690.1;gbkey=CDS;gene=U28;product=ribonucleotide reductase%2C large subunit;protein_id=AAC54690.1
+U43400.1	Genbank	gene	34064	36484	.	-	.	ID=gene-U28;Name=U28;gbkey=Gene;gene=U28;gene_biotype=protein_coding
+U43400.1	Genbank	CDS	36487	37347	.	-	0	ID=cds-AAC54691.1;Parent=gene-U29;Dbxref=NCBI_GP:AAC54691.1;Name=AAC54691.1;gbkey=CDS;gene=U29;product=minor capsid protein;protein_id=AAC54691.1
+U43400.1	Genbank	gene	36487	37347	.	-	.	ID=gene-U29;Name=U29;gbkey=Gene;gene=U29;gene_biotype=protein_coding
+U43400.1	Genbank	CDS	37362	40178	.	+	0	ID=cds-AAC54692.1;Parent=gene-U30;Dbxref=NCBI_GP:AAC54692.1;Name=AAC54692.1;gbkey=CDS;gene=U30;product=AAC54692.1;protein_id=AAC54692.1
+U43400.1	Genbank	gene	37362	40178	.	+	.	ID=gene-U30;Name=U30;gbkey=Gene;gene=U30;gene_biotype=protein_coding
+U43400.1	Genbank	CDS	40179	46358	.	+	0	ID=cds-AAC54693.1;Parent=gene-U31;Dbxref=NCBI_GP:AAC54693.1;Name=AAC54693.1;gbkey=CDS;gene=U31;product=large tegument protein;protein_id=AAC54693.1
+U43400.1	Genbank	gene	40179	46358	.	+	.	ID=gene-U31;Name=U31;gbkey=Gene;gene=U31;gene_biotype=protein_coding
+U43400.1	Genbank	CDS	46355	46627	.	-	0	ID=cds-AAC54694.1;Parent=gene-U32;Dbxref=NCBI_GP:AAC54694.1;Name=AAC54694.1;gbkey=CDS;gene=U32;product=AAC54694.1;protein_id=AAC54694.1
+U43400.1	Genbank	gene	46355	46627	.	-	.	ID=gene-U32;Name=U32;gbkey=Gene;gene=U32;gene_biotype=protein_coding
+U43400.1	Genbank	CDS	46608	48041	.	-	0	ID=cds-AAC54695.1;Parent=gene-U33;Dbxref=NCBI_GP:AAC54695.1;Name=AAC54695.1;gbkey=CDS;gene=U33;product=capsid protein;protein_id=AAC54695.1
+U43400.1	Genbank	gene	46608	48041	.	-	.	ID=gene-U33;Name=U33;gbkey=Gene;gene=U33;gene_biotype=protein_coding
+U43400.1	Genbank	CDS	47992	48768	.	-	0	ID=cds-AAC54696.1;Parent=gene-U34;Dbxref=NCBI_GP:AAC54696.1;Name=AAC54696.1;gbkey=CDS;gene=U34;product=AAC54696.1;protein_id=AAC54696.1
+U43400.1	Genbank	gene	47992	48768	.	-	.	ID=gene-U34;Name=U34;gbkey=Gene;gene=U34;gene_biotype=protein_coding
+U43400.1	Genbank	CDS	48805	49119	.	-	0	ID=cds-AAC54697.1;Parent=gene-U35;Dbxref=NCBI_GP:AAC54697.1;Name=AAC54697.1;gbkey=CDS;gene=U35;product=AAC54697.1;protein_id=AAC54697.1
+U43400.1	Genbank	gene	48805	49119	.	-	.	ID=gene-U35;Name=U35;gbkey=Gene;gene=U35;gene_biotype=protein_coding
+U43400.1	Genbank	CDS	49118	50575	.	+	0	ID=cds-AAC54698.1;Parent=gene-U36;Dbxref=NCBI_GP:AAC54698.1;Name=AAC54698.1;gbkey=CDS;gene=U36;product=AAC54698.1;protein_id=AAC54698.1
+U43400.1	Genbank	gene	49118	50575	.	+	.	ID=gene-U36;Name=U36;gbkey=Gene;gene=U36;gene_biotype=protein_coding
+U43400.1	Genbank	CDS	50577	51356	.	+	0	ID=cds-AAC54699.1;Parent=gene-U37;Dbxref=NCBI_GP:AAC54699.1;Name=AAC54699.1;gbkey=CDS;gene=U37;product=AAC54699.1;protein_id=AAC54699.1
+U43400.1	Genbank	gene	50577	51356	.	+	.	ID=gene-U37;Name=U37;gbkey=Gene;gene=U37;gene_biotype=protein_coding
+U43400.1	Genbank	CDS	51363	54401	.	-	0	ID=cds-AAC54700.1;Parent=gene-U38;Dbxref=NCBI_GP:AAC54700.1;Name=AAC54700.1;gbkey=CDS;gene=U38;product=DNA polymerase;protein_id=AAC54700.1
+U43400.1	Genbank	gene	51363	54401	.	-	.	ID=gene-U38;Name=U38;gbkey=Gene;gene=U38;gene_biotype=protein_coding
+U43400.1	Genbank	CDS	54401	56869	.	-	0	ID=cds-AAC54701.1;Parent=gene-U39;Dbxref=NCBI_GP:AAC54701.1;Name=AAC54701.1;gbkey=CDS;gene=U39;product=glycoprotein B;protein_id=AAC54701.1
+U43400.1	Genbank	gene	54401	56869	.	-	.	ID=gene-U39;Name=U39;gbkey=Gene;gene=U39;gene_biotype=protein_coding
+U43400.1	Genbank	CDS	56832	58997	.	-	0	ID=cds-AAC54702.1;Parent=gene-U40;Dbxref=NCBI_GP:AAC54702.1;Name=AAC54702.1;gbkey=CDS;gene=U40;product=AAC54702.1;protein_id=AAC54702.1
+U43400.1	Genbank	gene	56832	58997	.	-	.	ID=gene-U40;Name=U40;gbkey=Gene;gene=U40;gene_biotype=protein_coding
+U43400.1	Genbank	CDS	59000	62395	.	-	0	ID=cds-AAC54703.1;Parent=gene-U41;Dbxref=NCBI_GP:AAC54703.1;Name=AAC54703.1;gbkey=CDS;gene=U41;product=major DNA binding protein;protein_id=AAC54703.1
+U43400.1	Genbank	gene	59000	62395	.	-	.	ID=gene-U41;Name=U41;gbkey=Gene;gene=U41;gene_biotype=protein_coding
+U43400.1	Genbank	CDS	62772	64352	.	-	0	ID=cds-AAC54704.1;Parent=gene-U42;Dbxref=NCBI_GP:AAC54704.1;Name=AAC54704.1;gbkey=CDS;gene=U42;product=AAC54704.1;protein_id=AAC54704.1
+U43400.1	Genbank	gene	62772	64352	.	-	.	ID=gene-U42;Name=U42;gbkey=Gene;gene=U42;gene_biotype=protein_coding
+U43400.1	Genbank	CDS	64501	67086	.	-	0	ID=cds-AAC54705.1;Parent=gene-U43;Dbxref=NCBI_GP:AAC54705.1;Name=AAC54705.1;Note=part of helicase-primase complex;gbkey=CDS;gene=U43;product=primase;protein_id=AAC54705.1
+U43400.1	Genbank	gene	64501	67086	.	-	.	ID=gene-U43;Name=U43;gbkey=Gene;gene=U43;gene_biotype=protein_coding
+U43400.1	Genbank	CDS	67143	67754	.	+	0	ID=cds-AAC54706.1;Parent=gene-U44;Dbxref=NCBI_GP:AAC54706.1;Name=AAC54706.1;gbkey=CDS;gene=U44;product=AAC54706.1;protein_id=AAC54706.1
+U43400.1	Genbank	gene	67143	67754	.	+	.	ID=gene-U44;Name=U44;gbkey=Gene;gene=U44;gene_biotype=protein_coding
+U43400.1	Genbank	CDS	67759	68898	.	-	0	ID=cds-AAC54707.1;Parent=gene-U45;Dbxref=NCBI_GP:AAC54707.1;Name=AAC54707.1;gbkey=CDS;gene=U45;product=AAC54707.1;protein_id=AAC54707.1
+U43400.1	Genbank	gene	67759	68898	.	-	.	ID=gene-U45;Name=U45;gbkey=Gene;gene=U45;gene_biotype=protein_coding
+U43400.1	Genbank	CDS	68930	69190	.	+	0	ID=cds-AAC54708.1;Parent=gene-U46;Dbxref=NCBI_GP:AAC54708.1;Name=AAC54708.1;gbkey=CDS;gene=U46;product=AAC54708.1;protein_id=AAC54708.1
+U43400.1	Genbank	gene	68930	69190	.	+	.	ID=gene-U46;Name=U46;gbkey=Gene;gene=U46;gene_biotype=protein_coding
+U43400.1	Genbank	CDS	69638	70579	.	-	0	ID=cds-AAC54709.1;Parent=gene-U47;Dbxref=NCBI_GP:AAC54709.1;Name=AAC54709.1;gbkey=CDS;gene=U47;product=AAC54709.1;protein_id=AAC54709.1
+U43400.1	Genbank	gene	69638	70579	.	-	.	ID=gene-U47;Name=U47;gbkey=Gene;gene=U47;gene_biotype=protein_coding
+U43400.1	Genbank	CDS	70817	72889	.	-	0	ID=cds-AAC54710.1;Parent=gene-U48;Dbxref=NCBI_GP:AAC54710.1;Name=AAC54710.1;gbkey=CDS;gene=U48;product=glycoprotein H;protein_id=AAC54710.1
+U43400.1	Genbank	gene	70817	72889	.	-	.	ID=gene-U48;Name=U48;gbkey=Gene;gene=U48;gene_biotype=protein_coding
+U43400.1	Genbank	CDS	73003	73722	.	+	0	ID=cds-AAC54711.1;Parent=gene-U49;Dbxref=NCBI_GP:AAC54711.1;Name=AAC54711.1;gbkey=CDS;gene=U49;product=AAC54711.1;protein_id=AAC54711.1
+U43400.1	Genbank	gene	73003	73722	.	+	.	ID=gene-U49;Name=U49;gbkey=Gene;gene=U49;gene_biotype=protein_coding
+U43400.1	Genbank	CDS	73538	75202	.	+	0	ID=cds-AAC54712.1;Parent=gene-U50;Dbxref=NCBI_GP:AAC54712.1;Name=AAC54712.1;gbkey=CDS;gene=U50;product=viron protein;protein_id=AAC54712.1
+U43400.1	Genbank	gene	73538	75202	.	+	.	ID=gene-U50;Name=U50;gbkey=Gene;gene=U50;gene_biotype=protein_coding
+U43400.1	Genbank	CDS	75304	76188	.	+	0	ID=cds-AAC54713.1;Parent=gene-U51;Dbxref=NCBI_GP:AAC54713.1;Name=AAC54713.1;Note=similar to opioid receptor;gbkey=CDS;gene=U51;product=G protein-coupled receptor (GCR);protein_id=AAC54713.1
+U43400.1	Genbank	gene	75304	76188	.	+	.	ID=gene-U51;Name=U51;gbkey=Gene;gene=U51;gene_biotype=protein_coding
+U43400.1	Genbank	CDS	76185	76949	.	-	0	ID=cds-AAC54714.1;Parent=gene-U52;Dbxref=NCBI_GP:AAC54714.1;Name=AAC54714.1;gbkey=CDS;gene=U52;product=AAC54714.1;protein_id=AAC54714.1
+U43400.1	Genbank	gene	76185	76949	.	-	.	ID=gene-U52;Name=U52;gbkey=Gene;gene=U52;gene_biotype=protein_coding
+U43400.1	Genbank	CDS	76957	78495	.	+	0	ID=cds-AAC54715.1;Parent=gene-U53;Dbxref=NCBI_GP:AAC54715.1;Name=AAC54715.1;Note=assemblin;gbkey=CDS;gene=U53;product=protease;protein_id=AAC54715.1
+U43400.1	Genbank	gene	76957	78495	.	+	.	ID=gene-U53;Name=U53;gbkey=Gene;gene=U53;gene_biotype=protein_coding
+U43400.1	Genbank	CDS	78503	79870	.	-	0	ID=cds-AAC54716.1;Parent=gene-U54;Dbxref=NCBI_GP:AAC54716.1;Name=AAC54716.1;gbkey=CDS;gene=U54;product=AAC54716.1;protein_id=AAC54716.1
+U43400.1	Genbank	gene	78503	79870	.	-	.	ID=gene-U54;Name=U54;gbkey=Gene;gene=U54;gene_biotype=protein_coding
+U43400.1	Genbank	CDS	79918	81201	.	-	0	ID=cds-AAC54717.1;Parent=gene-U55A;Dbxref=NCBI_GP:AAC54717.1;Name=AAC54717.1;gbkey=CDS;gene=U55A;product=AAC54717.1;protein_id=AAC54717.1
+U43400.1	Genbank	gene	79918	81201	.	-	.	ID=gene-U55A;Name=U55A;gbkey=Gene;gene=U55A;gene_biotype=protein_coding
+U43400.1	Genbank	CDS	81285	82577	.	-	0	ID=cds-AAC54718.1;Parent=gene-U55B;Dbxref=NCBI_GP:AAC54718.1;Name=AAC54718.1;gbkey=CDS;gene=U55B;product=AAC54718.1;protein_id=AAC54718.1
+U43400.1	Genbank	gene	81285	82577	.	-	.	ID=gene-U55B;Name=U55B;gbkey=Gene;gene=U55B;gene_biotype=protein_coding
+U43400.1	Genbank	CDS	82630	83511	.	-	0	ID=cds-AAC54719.1;Parent=gene-U56;Dbxref=NCBI_GP:AAC54719.1;Name=AAC54719.1;gbkey=CDS;gene=U56;product=AAC54719.1;protein_id=AAC54719.1
+U43400.1	Genbank	gene	82630	83511	.	-	.	ID=gene-U56;Name=U56;gbkey=Gene;gene=U56;gene_biotype=protein_coding
+U43400.1	Genbank	CDS	83514	87551	.	-	0	ID=cds-AAC54720.1;Parent=gene-U57;Dbxref=NCBI_GP:AAC54720.1;Name=AAC54720.1;gbkey=CDS;gene=U57;product=major capsid protein;protein_id=AAC54720.1
+U43400.1	Genbank	gene	83514	87551	.	-	.	ID=gene-U57;Name=U57;gbkey=Gene;gene=U57;gene_biotype=protein_coding
+U43400.1	Genbank	CDS	87563	89890	.	+	0	ID=cds-AAC54721.1;Parent=gene-U58;Dbxref=NCBI_GP:AAC54721.1;Name=AAC54721.1;gbkey=CDS;gene=U58;product=AAC54721.1;protein_id=AAC54721.1
+U43400.1	Genbank	gene	87563	89890	.	+	.	ID=gene-U58;Name=U58;gbkey=Gene;gene=U58;gene_biotype=protein_coding
+U43400.1	Genbank	CDS	89838	90881	.	+	0	ID=cds-AAC54722.1;Parent=gene-U59;Dbxref=NCBI_GP:AAC54722.1;Name=AAC54722.1;gbkey=CDS;gene=U59;product=AAC54722.1;protein_id=AAC54722.1
+U43400.1	Genbank	gene	89838	90881	.	+	.	ID=gene-U59;Name=U59;gbkey=Gene;gene=U59;gene_biotype=protein_coding
+U43400.1	Genbank	CDS	90878	92005	.	-	0	ID=cds-AAC54723.1;Parent=gene-U60-U66;Dbxref=NCBI_GP:AAC54723.1;Name=AAC54723.1;gbkey=CDS;gene=U60-U66;product=AAC54723.1;protein_id=AAC54723.1
+U43400.1	Genbank	exon	90878	92005	.	-	.	ID=id-U60-U66-2;Parent=gene-U60-U66;exon_number=2;gbkey=exon;gene=U60-U66;number=2
+U43400.1	Genbank	gene	90878	95985	.	-	.	ID=gene-U60-U66;Name=U60-U66;gbkey=Gene;gene=U60-U66;gene_biotype=protein_coding
+U43400.1	Genbank	CDS	92017	92244	.	+	0	ID=cds-AAC54724.1;Parent=gene-U62;Dbxref=NCBI_GP:AAC54724.1;Name=AAC54724.1;gbkey=CDS;gene=U62;product=AAC54724.1;protein_id=AAC54724.1
+U43400.1	Genbank	gene	92017	92244	.	+	.	ID=gene-U62;Name=U62;gbkey=Gene;gene=U62;gene_biotype=protein_coding
+U43400.1	Genbank	CDS	92216	92851	.	+	0	ID=cds-AAC54725.1;Parent=gene-U63;Dbxref=NCBI_GP:AAC54725.1;Name=AAC54725.1;gbkey=CDS;gene=U63;product=AAC54725.1;protein_id=AAC54725.1
+U43400.1	Genbank	gene	92216	92851	.	+	.	ID=gene-U63;Name=U63;gbkey=Gene;gene=U63;gene_biotype=protein_coding
+U43400.1	Genbank	CDS	92829	94148	.	+	0	ID=cds-AAC54726.1;Parent=gene-U64;Dbxref=NCBI_GP:AAC54726.1;Name=AAC54726.1;gbkey=CDS;gene=U64;product=AAC54726.1;protein_id=AAC54726.1
+U43400.1	Genbank	gene	92829	94148	.	+	.	ID=gene-U64;Name=U64;gbkey=Gene;gene=U64;gene_biotype=protein_coding
+U43400.1	Genbank	CDS	94111	95103	.	+	0	ID=cds-AAC54727.1;Parent=gene-U65;Dbxref=NCBI_GP:AAC54727.1;Name=AAC54727.1;gbkey=CDS;gene=U65;product=AAC54727.1;protein_id=AAC54727.1
+U43400.1	Genbank	gene	94111	95103	.	+	.	ID=gene-U65;Name=U65;gbkey=Gene;gene=U65;gene_biotype=protein_coding
+U43400.1	Genbank	CDS	95122	95985	.	-	0	ID=cds-AAC54723.1;Parent=gene-U60-U66;Dbxref=NCBI_GP:AAC54723.1;Name=AAC54723.1;gbkey=CDS;gene=U60-U66;product=AAC54723.1;protein_id=AAC54723.1
+U43400.1	Genbank	exon	95122	95985	.	-	.	ID=id-U60-U66-1;Parent=gene-U60-U66;exon_number=1;gbkey=exon;gene=U60-U66;number=1
+U43400.1	Genbank	CDS	95984	97024	.	+	0	ID=cds-AAC54728.1;Parent=gene-U67;Dbxref=NCBI_GP:AAC54728.1;Name=AAC54728.1;gbkey=CDS;gene=U67;product=AAC54728.1;protein_id=AAC54728.1
+U43400.1	Genbank	gene	95984	97024	.	+	.	ID=gene-U67;Name=U67;gbkey=Gene;gene=U67;gene_biotype=protein_coding
+U43400.1	Genbank	CDS	97024	97368	.	+	0	ID=cds-AAC54729.1;Parent=gene-U68;Dbxref=NCBI_GP:AAC54729.1;Name=AAC54729.1;gbkey=CDS;gene=U68;product=AAC54729.1;protein_id=AAC54729.1
+U43400.1	Genbank	gene	97024	97368	.	+	.	ID=gene-U68;Name=U68;gbkey=Gene;gene=U68;gene_biotype=protein_coding
+U43400.1	Genbank	CDS	97371	99011	.	+	0	ID=cds-AAC54730.1;Parent=gene-U69;Dbxref=NCBI_GP:AAC54730.1;Name=AAC54730.1;gbkey=CDS;gene=U69;product=phosphotransferase;protein_id=AAC54730.1
+U43400.1	Genbank	gene	97371	99011	.	+	.	ID=gene-U69;Name=U69;gbkey=Gene;gene=U69;gene_biotype=protein_coding
+U43400.1	Genbank	CDS	99013	100455	.	+	0	ID=cds-AAC54731.1;Parent=gene-U70;Dbxref=NCBI_GP:AAC54731.1;Name=AAC54731.1;gbkey=CDS;gene=U70;product=alkaline exonuclease;protein_id=AAC54731.1
+U43400.1	Genbank	gene	99013	100455	.	+	.	ID=gene-U70;Name=U70;gbkey=Gene;gene=U70;gene_biotype=protein_coding
+U43400.1	Genbank	CDS	100392	100613	.	+	0	ID=cds-AAC54732.1;Parent=gene-U71;Dbxref=NCBI_GP:AAC54732.1;Name=AAC54732.1;gbkey=CDS;gene=U71;product=AAC54732.1;protein_id=AAC54732.1
+U43400.1	Genbank	gene	100392	100613	.	+	.	ID=gene-U71;Name=U71;gbkey=Gene;gene=U71;gene_biotype=protein_coding
+U43400.1	Genbank	CDS	100636	101676	.	-	0	ID=cds-AAC54733.1;Parent=gene-U72;Dbxref=NCBI_GP:AAC54733.1;Name=AAC54733.1;Note=integral membrane protein;gbkey=CDS;gene=U72;product=glycoprotein M;protein_id=AAC54733.1
+U43400.1	Genbank	gene	100636	101676	.	-	.	ID=gene-U72;Name=U72;gbkey=Gene;gene=U72;gene_biotype=protein_coding
+U43400.1	Genbank	CDS	101693	104056	.	+	0	ID=cds-AAC54734.1;Parent=gene-U73;Dbxref=NCBI_GP:AAC54734.1;Name=AAC54734.1;gbkey=CDS;gene=U73;product=replication origin binding protein (OBP);protein_id=AAC54734.1
+U43400.1	Genbank	gene	101693	104056	.	+	.	ID=gene-U73;Name=U73;gbkey=Gene;gene=U73;gene_biotype=protein_coding
+U43400.1	Genbank	CDS	104007	105986	.	+	0	ID=cds-AAC54735.1;Parent=gene-U74;Dbxref=NCBI_GP:AAC54735.1;Name=AAC54735.1;gbkey=CDS;gene=U74;product=helicase-primase complex;protein_id=AAC54735.1
+U43400.1	Genbank	gene	104007	105986	.	+	.	ID=gene-U74;Name=U74;gbkey=Gene;gene=U74;gene_biotype=protein_coding
+U43400.1	Genbank	CDS	105973	106743	.	-	0	ID=cds-AAC54736.1;Parent=gene-U75;Dbxref=NCBI_GP:AAC54736.1;Name=AAC54736.1;gbkey=CDS;gene=U75;product=AAC54736.1;protein_id=AAC54736.1
+U43400.1	Genbank	gene	105973	106743	.	-	.	ID=gene-U75;Name=U75;gbkey=Gene;gene=U75;gene_biotype=protein_coding
+U43400.1	Genbank	CDS	106667	108589	.	-	0	ID=cds-AAC54737.1;Parent=gene-U76;Dbxref=NCBI_GP:AAC54737.1;Name=AAC54737.1;gbkey=CDS;gene=U76;product=AAC54737.1;protein_id=AAC54737.1
+U43400.1	Genbank	gene	106667	108589	.	-	.	ID=gene-U76;Name=U76;gbkey=Gene;gene=U76;gene_biotype=protein_coding
+U43400.1	Genbank	CDS	108435	110897	.	+	0	ID=cds-AAC54738.1;Parent=gene-U77;Dbxref=NCBI_GP:AAC54738.1;Name=AAC54738.1;Note=part of helicase-primase complex;gbkey=CDS;gene=U77;product=helicase;protein_id=AAC54738.1
+U43400.1	Genbank	gene	108435	110897	.	+	.	ID=gene-U77;Name=U77;gbkey=Gene;gene=U77;gene_biotype=protein_coding
+U43400.1	Genbank	CDS	112811	113311	.	+	0	ID=cds-AAC54739.1;Parent=gene-H5;Dbxref=NCBI_GP:AAC54739.1;Name=AAC54739.1;gbkey=CDS;gene=H5;partial=true;product=AAC54739.1;protein_id=AAC54739.1;start_range=.,112811
+U43400.1	Genbank	gene	112811	113311	.	+	.	ID=gene-H5;Name=H5;gbkey=Gene;gene=H5;gene_biotype=protein_coding
+U43400.1	Genbank	CDS	113502	114203	.	+	0	ID=cds-AAC54740.1;Parent=gene-U79;Dbxref=NCBI_GP:AAC54740.1;Name=AAC54740.1;gbkey=CDS;gene=U79;product=AAC54740.1;protein_id=AAC54740.1
+U43400.1	Genbank	gene	113502	114203	.	+	.	ID=gene-U79;Name=U79;gbkey=Gene;gene=U79;gene_biotype=protein_coding
+U43400.1	Genbank	CDS	114257	114505	.	+	0	ID=cds-AAC54741.1;Parent=gene-H6;Dbxref=NCBI_GP:AAC54741.1;Name=AAC54741.1;gbkey=CDS;gene=H6;partial=true;product=AAC54741.1;protein_id=AAC54741.1;start_range=.,114257
+U43400.1	Genbank	gene	114257	114505	.	+	.	ID=gene-H6;Name=H6;gbkey=Gene;gene=H6;gene_biotype=protein_coding
+U43400.1	Genbank	CDS	114557	115189	.	+	0	ID=cds-AAC54742.1;Parent=gene-U80;Dbxref=NCBI_GP:AAC54742.1;Name=AAC54742.1;gbkey=CDS;gene=U80;partial=true;product=AAC54742.1;protein_id=AAC54742.1;start_range=.,114557
+U43400.1	Genbank	gene	114557	115189	.	+	.	ID=gene-U80;Name=U80;gbkey=Gene;gene=U80;gene_biotype=protein_coding
+U43400.1	Genbank	CDS	115184	115948	.	-	0	ID=cds-AAC54743.1;Parent=gene-U81;Dbxref=NCBI_GP:AAC54743.1;Name=AAC54743.1;gbkey=CDS;gene=U81;product=uracil-DNA glycosylase;protein_id=AAC54743.1
+U43400.1	Genbank	gene	115184	115948	.	-	.	ID=gene-U81;Name=U81;gbkey=Gene;gene=U81;gene_biotype=protein_coding
+U43400.1	Genbank	CDS	116038	116778	.	-	0	ID=cds-AAC54744.1;Parent=gene-U82;Dbxref=NCBI_GP:AAC54744.1;Name=AAC54744.1;Note=glycoprotein H accessory protein;gbkey=CDS;gene=U82;product=glycoprotein L;protein_id=AAC54744.1
+U43400.1	Genbank	gene	116038	116778	.	-	.	ID=gene-U82;Name=U82;gbkey=Gene;gene=U82;gene_biotype=protein_coding
+U43400.1	Genbank	CDS	117111	118043	.	-	0	ID=cds-AAC54745.1;Parent=gene-U84;Dbxref=NCBI_GP:AAC54745.1;Name=AAC54745.1;gbkey=CDS;gene=U84;product=AAC54745.1;protein_id=AAC54745.1
+U43400.1	Genbank	gene	117111	118043	.	-	.	ID=gene-U84;Name=U84;gbkey=Gene;gene=U84;gene_biotype=protein_coding
+U43400.1	Genbank	CDS	118071	118913	.	-	0	ID=cds-AAC54746.1;Parent=gene-U85;Dbxref=NCBI_GP:AAC54746.1;Name=AAC54746.1;Note=similar to OX-2;gbkey=CDS;gene=U85;product=glycoprotein;protein_id=AAC54746.1
+U43400.1	Genbank	gene	118071	118913	.	-	.	ID=gene-U85;Name=U85;gbkey=Gene;gene=U85;gene_biotype=protein_coding
+U43400.1	Genbank	CDS	119091	122708	.	-	0	ID=cds-AAC54747.1;Parent=gene-U86;Dbxref=NCBI_GP:AAC54747.1;Name=AAC54747.1;gbkey=CDS;gene=U86;product=AAC54747.1;protein_id=AAC54747.1
+U43400.1	Genbank	gene	119091	122708	.	-	.	ID=gene-U86;Name=U86;gbkey=Gene;gene=U86;gene_biotype=protein_coding
+U43400.1	Genbank	CDS	125420	128668	.	-	0	ID=cds-AAC54748.1;Parent=gene-U89;Dbxref=NCBI_GP:AAC54748.1;Name=AAC54748.1;gbkey=CDS;gene=U89;product=AAC54748.1;protein_id=AAC54748.1
+U43400.1	Genbank	gene	125420	128668	.	-	.	ID=gene-U89;Name=U89;gbkey=Gene;gene=U89;gene_biotype=protein_coding
+U43400.1	Genbank	CDS	128776	129051	.	-	0	ID=cds-AAC54749.1;Parent=gene-U90;Dbxref=NCBI_GP:AAC54749.1;Name=AAC54749.1;end_range=129051,.;gbkey=CDS;gene=U90;partial=true;product=AAC54749.1;protein_id=AAC54749.1
+U43400.1	Genbank	gene	128776	129051	.	-	.	ID=gene-U90;Name=U90;gbkey=Gene;gene=U90;gene_biotype=protein_coding
+U43400.1	Genbank	CDS	129122	129625	.	+	0	ID=cds-AAC54750.1;Parent=gene-U91;Dbxref=NCBI_GP:AAC54750.1;Name=AAC54750.1;gbkey=CDS;gene=U91;product=AAC54750.1;protein_id=AAC54750.1
+U43400.1	Genbank	gene	129122	129625	.	+	.	ID=gene-U91;Name=U91;gbkey=Gene;gene=U91;gene_biotype=protein_coding
+U43400.1	Genbank	CDS	130829	132112	.	+	0	ID=cds-AAC54751.1;Parent=gene-H7;Dbxref=NCBI_GP:AAC54751.1;Name=AAC54751.1;gbkey=CDS;gene=H7;product=AAC54751.1;protein_id=AAC54751.1
+U43400.1	Genbank	gene	130829	132112	.	+	.	ID=gene-H7;Name=H7;gbkey=Gene;gene=H7;gene_biotype=protein_coding
+U43400.1	Genbank	CDS	133382	136204	.	+	0	ID=cds-AAC54752.1;Parent=gene-U95;Dbxref=NCBI_GP:AAC54752.1;Name=AAC54752.1;gbkey=CDS;gene=U95;product=AAC54752.1;protein_id=AAC54752.1
+U43400.1	Genbank	gene	133382	136204	.	+	.	ID=gene-U95;Name=U95;gbkey=Gene;gene=U95;gene_biotype=protein_coding
+U43400.1	Genbank	CDS	136307	136579	.	-	0	ID=cds-AAC54753.1;Parent=gene-H8;Dbxref=NCBI_GP:AAC54753.1;Name=AAC54753.1;gbkey=CDS;gene=H8;product=AAC54753.1;protein_id=AAC54753.1
+U43400.1	Genbank	gene	136307	136579	.	-	.	ID=gene-H8;Name=H8;gbkey=Gene;gene=H8;gene_biotype=protein_coding
+U43400.1	Genbank	CDS	137945	138451	.	-	0	ID=cds-AAC54754.1;Parent=gene-U98;Dbxref=NCBI_GP:AAC54754.1;Name=AAC54754.1;Note=similar to gp82/gp105 glycoprotein of HHV6%2C GenBank Accession Number U23467;end_range=138451,.;gbkey=CDS;gene=U98;partial=true;product=spliced glycoprotein;protein_id=AAC54754.1
+U43400.1	Genbank	gene	137945	138451	.	-	.	ID=gene-U98;Name=U98;gbkey=Gene;gene=U98;gene_biotype=protein_coding
+U43400.1	Genbank	CDS	138375	138692	.	-	0	ID=cds-AAC54755.1;Parent=gene-U99;Dbxref=NCBI_GP:AAC54755.1;Name=AAC54755.1;Note=similar to gp82/gp105 glycoprotein of HHV6%2C GenBank Accession Number U23467;end_range=138692,.;gbkey=CDS;gene=U99;partial=true;product=spliced glycoprotein;protein_id=AAC54755.1
+U43400.1	Genbank	gene	138375	138692	.	-	.	ID=gene-U99;Name=U99;gbkey=Gene;gene=U99;gene_biotype=protein_coding
+U43400.1	Genbank	CDS	138751	138999	.	-	0	ID=cds-AAC54756.1;Parent=gene-U100;Dbxref=NCBI_GP:AAC54756.1;Name=AAC54756.1;Note=similar to gp82/gp105 glycoprotein of HHV6%2C GenBank Accession Number U23467;gbkey=CDS;gene=U100;product=spliced glycoprotein;protein_id=AAC54756.1
+U43400.1	Genbank	gene	138751	138999	.	-	.	ID=gene-U100;Name=U100;gbkey=Gene;gene=U100;gene_biotype=protein_coding
+U43400.1	Genbank	CDS	139080	139589	.	+	0	ID=cds-AAC54757.1;Parent=gene-H1';Dbxref=NCBI_GP:AAC54757.1;Name=AAC54757.1;gbkey=CDS;gene=H1';partial=true;product=AAC54757.1;protein_id=AAC54757.1;start_range=.,139080
+U43400.1	Genbank	gene	139080	139589	.	+	.	ID=gene-H1';Name=H1';gbkey=Gene;gene=H1';gene_biotype=protein_coding
+U43400.1	Genbank	CDS	139415	139873	.	+	0	ID=cds-AAC54758.1;Parent=gene-DR1';Dbxref=NCBI_GP:AAC54758.1;Name=AAC54758.1;gbkey=CDS;gene=DR1';partial=true;product=AAC54758.1;protein_id=AAC54758.1;start_range=.,139415
+U43400.1	Genbank	gene	139415	139873	.	+	.	ID=gene-DR1';Name=DR1';gbkey=Gene;gene=DR1';gene_biotype=protein_coding
+U43400.1	Genbank	CDS	139945	141147	.	+	0	ID=cds-AAC54759.1;Parent=gene-DR2';Dbxref=NCBI_GP:AAC54759.1;Name=AAC54759.1;gbkey=CDS;gene=DR2';partial=true;product=AAC54759.1;protein_id=AAC54759.1;start_range=.,139945
+U43400.1	Genbank	gene	139945	141147	.	+	.	ID=gene-DR2';Name=DR2';gbkey=Gene;gene=DR2';gene_biotype=protein_coding
+U43400.1	Genbank	CDS	141314	141553	.	+	0	ID=cds-AAC54760.1;Parent=gene-H2';Dbxref=NCBI_GP:AAC54760.1;Name=AAC54760.1;gbkey=CDS;gene=H2';product=AAC54760.1;protein_id=AAC54760.1
+U43400.1	Genbank	gene	141314	141553	.	+	.	ID=gene-H2';Name=H2';gbkey=Gene;gene=H2';gene_biotype=protein_coding
+U43400.1	Genbank	CDS	141609	142097	.	+	0	ID=cds-AAC54761.1;Parent=gene-DR6';Dbxref=NCBI_GP:AAC54761.1;Name=AAC54761.1;gbkey=CDS;gene=DR6';product=AAC54761.1;protein_id=AAC54761.1
+U43400.1	Genbank	gene	141609	142097	.	+	.	ID=gene-DR6';Name=DR6';gbkey=Gene;gene=DR6';gene_biotype=protein_coding
+U43400.1	Genbank	CDS	142169	142957	.	+	0	ID=cds-AAC54762.1;Parent=gene-DR7';Dbxref=NCBI_GP:AAC54762.1;Name=AAC54762.1;gbkey=CDS;gene=DR7';product=AAC54762.1;protein_id=AAC54762.1
+U43400.1	Genbank	gene	142169	142957	.	+	.	ID=gene-DR7';Name=DR7';gbkey=Gene;gene=DR7';gene_biotype=protein_coding
+U43400.1	Genbank	CDS	143023	143271	.	-	0	ID=cds-AAC54763.1;Parent=gene-H3';Dbxref=NCBI_GP:AAC54763.1;Name=AAC54763.1;gbkey=CDS;gene=H3';product=AAC54763.1;protein_id=AAC54763.1
+U43400.1	Genbank	gene	143023	143271	.	-	.	ID=gene-H3';Name=H3';gbkey=Gene;gene=H3';gene_biotype=protein_coding
+U43400.1	Genbank	CDS	143496	143792	.	-	0	ID=cds-AAC54764.1;Parent=gene-H4';Dbxref=NCBI_GP:AAC54764.1;Name=AAC54764.1;gbkey=CDS;gene=H4';product=AAC54764.1;protein_id=AAC54764.1
+U43400.1	Genbank	gene	143496	143792	.	-	.	ID=gene-H4';Name=H4';gbkey=Gene;gene=H4';gene_biotype=protein_coding
