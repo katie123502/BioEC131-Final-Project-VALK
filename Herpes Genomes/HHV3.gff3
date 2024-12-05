@@ -1,0 +1,148 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region X04370.1 1 124884
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=10338
+X04370.1	EMBL	region	1	124884	.	+	.	ID=X04370.1:1..124884;Dbxref=taxon:10338;gbkey=Src;mol_type=genomic DNA;note=acronym:HHV-3%3DVZV;strain=Dumas
+X04370.1	EMBL	sequence_feature	88	89	.	+	.	ID=id-X04370.1:88..89;Note=TRL/UL boundary;gbkey=misc_feature
+X04370.1	EMBL	CDS	173	562	.	+	0	ID=cds-CAG46438.1;Dbxref=GOA:Q6F6K2,UniProtKB/Swiss-Prot:Q6F6K2,NCBI_GP:CAG46438.1;Name=CAG46438.1;Note=ORF0%3B~orthologue of HHV-1 UL56;gbkey=CDS;product=CAG46438.1;protein_id=CAG46438.1
+X04370.1	EMBL	region	588	593	.	-	.	ID=id-X04370.1:588..593;Note=ORF1;gbkey=polyA_signal
+X04370.1	EMBL	CDS	589	915	.	-	0	ID=cds-CAA27884.1;Dbxref=GOA:P09266,UniProtKB/Swiss-Prot:P09266,NCBI_GP:CAA27884.1;Name=CAA27884.1;Note=ORF1;gbkey=CDS;product=CAA27884.1;protein_id=CAA27884.1
+X04370.1	EMBL	CDS	1134	1850	.	+	0	ID=cds-CAA27885.1;Dbxref=GOA:P09267,InterPro:IPR010741,UniProtKB/Swiss-Prot:P09267,NCBI_GP:CAA27885.1;Name=CAA27885.1;Note=ORF2;gbkey=CDS;product=CAA27885.1;protein_id=CAA27885.1
+X04370.1	EMBL	region	1857	1862	.	+	.	ID=id-X04370.1:1857..1862;Note=ORF2;gbkey=polyA_signal
+X04370.1	EMBL	region	1890	1895	.	-	.	ID=id-X04370.1:1890..1895;Note=ORF3;gbkey=polyA_signal
+X04370.1	EMBL	CDS	1908	2447	.	-	0	ID=cds-CAA27886.1;Dbxref=GOA:P09268,InterPro:IPR007622,UniProtKB/Swiss-Prot:P09268,NCBI_GP:CAA27886.1;Name=CAA27886.1;Note=ORF3%3B~orthologue of HHV-1 UL55;gbkey=CDS;product=CAA27886.1;protein_id=CAA27886.1
+X04370.1	EMBL	region	2777	2782	.	-	.	ID=id-X04370.1:2777..2782;Note=ORF4;gbkey=polyA_signal
+X04370.1	EMBL	CDS	2783	4141	.	-	0	ID=cds-CAA27887.1;Dbxref=GOA:P09269,InterPro:IPR008648,UniProtKB/Swiss-Prot:P09269,NCBI_GP:CAA27887.1;Name=CAA27887.1;Note=ORF4%3B~orthologue of HHV-1 UL54;gbkey=CDS;product=CAA27887.1;protein_id=CAA27887.1
+X04370.1	EMBL	CDS	4252	5274	.	-	0	ID=cds-CAA27888.1;Dbxref=GOA:P09261,InterPro:IPR002567,UniProtKB/Swiss-Prot:P09261,NCBI_GP:CAA27888.1;Name=CAA27888.1;Note=ORF5%3B~orthologue of HHV-1 UL53;gbkey=CDS;product=virion glycoprotein gK;protein_id=CAA27888.1
+X04370.1	EMBL	CDS	5326	8577	.	-	0	ID=cds-CAA27889.1;Dbxref=GOA:P09270,InterPro:IPR004340,UniProtKB/Swiss-Prot:P09270,NCBI_GP:CAA27889.1;Name=CAA27889.1;Note=ORF6%3B~orthologue of HHV-1 UL52;gbkey=CDS;product=primase;protein_id=CAA27889.1
+X04370.1	EMBL	CDS	8607	9386	.	+	0	ID=cds-CAA27890.1;Dbxref=GOA:P09271,InterPro:IPR007625,UniProtKB/Swiss-Prot:P09271,NCBI_GP:CAA27890.1;Name=CAA27890.1;Note=ORF7%3B~orthologue of HHV-1 UL51;gbkey=CDS;product=CAA27890.1;protein_id=CAA27890.1
+X04370.1	EMBL	region	9394	9399	.	+	.	ID=id-X04370.1:9394..9399;Note=ORF7;gbkey=polyA_signal
+X04370.1	EMBL	region	9426	9431	.	-	.	ID=id-X04370.1:9426..9431;Note=ORF8;gbkey=polyA_signal
+X04370.1	EMBL	CDS	9477	10667	.	-	0	ID=cds-CAA27891.1;Dbxref=GOA:P09254,InterPro:IPR008180,UniProtKB/Swiss-Prot:P09254,NCBI_GP:CAA27891.1;Name=CAA27891.1;Note=ORF8%3B~orthologue of HHV-1 UL50;gbkey=CDS;product=deoxyuridine triphosphatase;protein_id=CAA27891.1
+X04370.1	EMBL	CDS	10642	10905	.	+	0	ID=cds-CAH19068.1;Dbxref=GOA:Q65ZG0,InterPro:IPR008647,UniProtKB/Swiss-Prot:Q65ZG0,NCBI_GP:CAH19068.1;Name=CAH19068.1;Note=ORF9A%3B~orthologue of HHV-1 UL49A;gbkey=CDS;product=envelope protein gN;protein_id=CAH19068.1
+X04370.1	EMBL	CDS	11009	11917	.	+	0	ID=cds-CAA27892.1;Dbxref=GOA:P09272,InterPro:IPR006908,UniProtKB/Swiss-Prot:P09272,NCBI_GP:CAA27892.1;Name=CAA27892.1;Note=ORF9%3B~orthologue of HHV-1 UL49;gbkey=CDS;product=CAA27892.1;protein_id=CAA27892.1
+X04370.1	EMBL	region	11959	11964	.	+	.	ID=id-X04370.1:11959..11964;Note=ORF9;gbkey=polyA_signal
+X04370.1	EMBL	CDS	12160	13392	.	+	0	ID=cds-CAA27893.1;Dbxref=GOA:P09265,InterPro:IPR003174,UniProtKB/Swiss-Prot:P09265,NCBI_GP:CAA27893.1;Name=CAA27893.1;Note=ORF10%3B~orthologue of HHV-1 UL48;gbkey=CDS;product=CAA27893.1;protein_id=CAA27893.1
+X04370.1	EMBL	region	13416	13421	.	+	.	ID=id-X04370.1:13416..13421;Note=ORF10;gbkey=polyA_signal
+X04370.1	EMBL	CDS	13590	16049	.	+	0	ID=cds-CAA27894.1;Dbxref=GOA:P09263,InterPro:IPR005029,UniProtKB/Swiss-Prot:P09263,NCBI_GP:CAA27894.1;Name=CAA27894.1;Note=ORF11%3B~orthologue of HHV-1 UL47;gbkey=CDS;product=CAA27894.1;protein_id=CAA27894.1
+X04370.1	EMBL	repeat_region	13937	14242	.	+	.	ID=id-X04370.1:13937..14242;Note=reiteration R1;gbkey=repeat_region
+X04370.1	EMBL	region	16117	16122	.	+	.	ID=id-X04370.1:16117..16122;Note=ORF11;gbkey=polyA_signal
+X04370.1	EMBL	CDS	16214	18199	.	+	0	ID=cds-CAA27895.1;Dbxref=GOA:P09264,InterPro:IPR005051,UniProtKB/Swiss-Prot:P09264,NCBI_GP:CAA27895.1;Name=CAA27895.1;Note=ORF12%3B~orthologue of HHV-1 UL46;gbkey=CDS;product=CAA27895.1;protein_id=CAA27895.1
+X04370.1	EMBL	CDS	18441	19346	.	+	0	ID=cds-CAA27896.1;Dbxref=GOA:P09249,InterPro:IPR000398,InterPro:IPR020940,UniProtKB/Swiss-Prot:P09249,NCBI_GP:CAA27896.1;Name=CAA27896.1;Note=ORF13;gbkey=CDS;product=thymidylate synthase;protein_id=CAA27896.1
+X04370.1	EMBL	region	19342	19347	.	-	.	ID=id-X04370.1:19342..19347;Note=ORF14;gbkey=polyA_signal
+X04370.1	EMBL	region	19391	19396	.	+	.	ID=id-X04370.1:19391..19396;Note=ORF13;gbkey=polyA_signal
+X04370.1	EMBL	CDS	19431	21113	.	-	0	ID=cds-CAA27897.1;Dbxref=GOA:P09256,InterPro:IPR001038,InterPro:IPR013783,UniProtKB/Swiss-Prot:P09256,NCBI_GP:CAA27897.1;Name=CAA27897.1;Note=ORF14%3B~orthologue of HHV-1 UL44;gbkey=CDS;product=envelope glycoprotein gC;protein_id=CAA27897.1
+X04370.1	EMBL	repeat_region	20572	20897	.	+	.	ID=id-X04370.1:20572..20897;Note=reiteration R2;gbkey=repeat_region
+X04370.1	EMBL	region	21244	21249	.	-	.	ID=id-X04370.1:21244..21249;Note=ORF15;gbkey=polyA_signal
+X04370.1	EMBL	CDS	21258	22478	.	-	0	ID=cds-CAA27898.1;Dbxref=GOA:P09273,InterPro:IPR007764,UniProtKB/Swiss-Prot:P09273,NCBI_GP:CAA27898.1;Name=CAA27898.1;Note=ORF15%3B~orthologue of HHV-1 UL43;gbkey=CDS;product=CAA27898.1;protein_id=CAA27898.1
+X04370.1	EMBL	CDS	22568	23794	.	-	0	ID=cds-CAA27899.1;Dbxref=GOA:P09274,InterPro:IPR003202,UniProtKB/Swiss-Prot:P09274,NCBI_GP:CAA27899.1;Name=CAA27899.1;Note=ORF16%3B~orthologue of HHV-1 UL42;gbkey=CDS;product=processivity factor;protein_id=CAA27899.1
+X04370.1	EMBL	CDS	24149	25516	.	+	0	ID=cds-CAA27900.1;Dbxref=GOA:P09275,InterPro:IPR006086,UniProtKB/Swiss-Prot:P09275,NCBI_GP:CAA27900.1;Name=CAA27900.1;Note=ORF17%3B~orthologue of HHV-1 UL41;gbkey=CDS;product=host shut-off factor;protein_id=CAA27900.1
+X04370.1	EMBL	region	25512	25517	.	+	.	ID=id-X04370.1:25512..25517;Note=ORF17;gbkey=polyA_signal
+X04370.1	EMBL	region	25550	25555	.	-	.	ID=id-X04370.1:25550..25555;Note=ORF18;gbkey=polyA_signal
+X04370.1	EMBL	CDS	25573	26493	.	-	0	ID=cds-CAA27901.1;Dbxref=GOA:P09247,InterPro:IPR000358,InterPro:IPR009078,InterPro:IPR012348,UniProtKB/Swiss-Prot:P09247,NCBI_GP:CAA27901.1;Name=CAA27901.1;Note=ORF18%3B~orthologue of HHV-1 UL40;gbkey=CDS;product=ribonucleotide reductase (small subunit);protein_id=CAA27901.1
+X04370.1	EMBL	CDS	26518	28845	.	-	0	ID=cds-CAA27902.1;Dbxref=GOA:P09248,InterPro:IPR000788,InterPro:IPR013346,InterPro:IPR013509,UniProtKB/Swiss-Prot:P09248,NCBI_GP:CAA27902.1;Name=CAA27902.1;Note=ORF19%3B~orthologue of HHV-1 UL39;gbkey=CDS;product=ribonucleotide reductase (large subunit);protein_id=CAA27902.1
+X04370.1	EMBL	region	29005	29010	.	-	.	ID=id-X04370.1:29005..29010;Note=ORF20;gbkey=polyA_signal
+X04370.1	EMBL	CDS	29024	30475	.	-	0	ID=cds-CAA27903.1;Dbxref=GOA:P09276,InterPro:IPR004999,UniProtKB/Swiss-Prot:P09276,NCBI_GP:CAA27903.1;Name=CAA27903.1;Note=ORF20%3B~orthologue of HHV-1 UL38;gbkey=CDS;product=minor capsid protein binding protein;protein_id=CAA27903.1
+X04370.1	EMBL	CDS	30759	33875	.	+	0	ID=cds-CAA27904.1;Dbxref=GOA:P09277,InterPro:IPR005655,UniProtKB/Swiss-Prot:P09277,NCBI_GP:CAA27904.1;Name=CAA27904.1;Note=ORF21%3B~orthologue of HHV-1 UL37;gbkey=CDS;product=CAA27904.1;protein_id=CAA27904.1
+X04370.1	EMBL	region	33900	33905	.	+	.	ID=id-X04370.1:33900..33905;Note=ORF21;gbkey=polyA_signal
+X04370.1	EMBL	CDS	34083	42374	.	+	0	ID=cds-CAA27905.1;Dbxref=GOA:P09278,InterPro:IPR005210,InterPro:IPR006928,UniProtKB/Swiss-Prot:P09278,NCBI_GP:CAA27905.1;Name=CAA27905.1;Note=ORF22%3B~orthologue of HHV-1 UL36;gbkey=CDS;product=CAA27905.1;protein_id=CAA27905.1
+X04370.1	EMBL	repeat_region	41454	41519	.	+	.	ID=id-X04370.1:41454..41519;Note=reiteration R3;gbkey=repeat_region
+X04370.1	EMBL	region	42385	42390	.	+	.	ID=id-X04370.1:42385..42390;Note=ORF22;gbkey=polyA_signal
+X04370.1	EMBL	region	42426	42431	.	-	.	ID=id-X04370.1:42426..42431;Note=ORF23;gbkey=polyA_signal
+X04370.1	EMBL	CDS	42431	43138	.	-	0	ID=cds-CAA27906.1;Dbxref=GOA:P09279,InterPro:IPR007584,UniProtKB/Swiss-Prot:P09279,NCBI_GP:CAA27906.1;Name=CAA27906.1;Note=ORF23%3B~orthologue of HHV-1 UL35;gbkey=CDS;product=small capsid protein;protein_id=CAA27906.1
+X04370.1	EMBL	region	43211	43216	.	-	.	ID=id-X04370.1:43211..43216;Note=ORF24;gbkey=polyA_signal
+X04370.1	EMBL	CDS	43212	44021	.	-	0	ID=cds-CAA27907.1;Dbxref=GOA:P09280,InterPro:IPR007626,UniProtKB/Swiss-Prot:P09280,NCBI_GP:CAA27907.1;Name=CAA27907.1;Note=ORF24%3B~orthologue of HHV-1 UL34;gbkey=CDS;product=nuclear membrane-associated phosphoprotein;protein_id=CAA27907.1
+X04370.1	EMBL	region	44131	44136	.	-	.	ID=id-X04370.1:44131..44136;Note=ORF25;gbkey=polyA_signal
+X04370.1	EMBL	CDS	44148	44618	.	-	0	ID=cds-CAA27909.1;Dbxref=GOA:P09281,InterPro:IPR005208,UniProtKB/Swiss-Prot:P09281,NCBI_GP:CAA27909.1;Name=CAA27909.1;Note=ORF25%3B~orthologue of HHV-1 UL33;gbkey=CDS;product=CAA27909.1;protein_id=CAA27909.1
+X04370.1	EMBL	CDS	44506	46263	.	+	0	ID=cds-CAA27908.1;Dbxref=GOA:P09282,InterPro:IPR002597,UniProtKB/Swiss-Prot:P09282,NCBI_GP:CAA27908.1;Name=CAA27908.1;Note=ORF26%3B~orthologue of HHV-1 UL32;gbkey=CDS;product=CAA27908.1;protein_id=CAA27908.1
+X04370.1	EMBL	CDS	46127	47128	.	+	0	ID=cds-CAA27910.1;Dbxref=GOA:P09283,InterPro:IPR021152,UniProtKB/Swiss-Prot:P09283,NCBI_GP:CAA27910.1;Name=CAA27910.1;Note=ORF27%3B~orthologue of HHV-1 UL31;gbkey=CDS;product=nuclear matrix protein;protein_id=CAA27910.1
+X04370.1	EMBL	region	47031	47036	.	-	.	ID=id-X04370.1:47031..47036;Note=ORF28;gbkey=polyA_signal
+X04370.1	EMBL	CDS	47052	50636	.	-	0	ID=cds-CAA27911.1;Dbxref=GOA:P09252,InterPro:IPR006133,InterPro:IPR006134,InterPro:IPR006172,InterPro:IPR012337,InterPro:IPR017964,UniProtKB/Swiss-Prot:P09252,NCBI_GP:CAA27911.1;Name=CAA27911.1;Note=ORF28%3B~orthologue of HHV-1 UL30;gbkey=CDS;product=DNA polymerase catalytic subunit;protein_id=CAA27911.1
+X04370.1	EMBL	region	47238	47243	.	+	.	ID=id-X04370.1:47238..47243;Note=ORF27;gbkey=polyA_signal
+X04370.1	EMBL	CDS	50857	54471	.	+	0	ID=cds-CAA27912.1;Dbxref=GOA:P09246,InterPro:IPR000635,UniProtKB/Swiss-Prot:P09246,NCBI_GP:CAA27912.1;Name=CAA27912.1;Note=ORF29%3B~orthologue of HHV-1 UL29;gbkey=CDS;product=single-stranded DNA-binding protein;protein_id=CAA27912.1
+X04370.1	EMBL	region	54518	54523	.	+	.	ID=id-X04370.1:54518..54523;Note=ORF29;gbkey=polyA_signal
+X04370.1	EMBL	CDS	54651	56963	.	+	0	ID=cds-CAA27913.1;Dbxref=GOA:P09284,InterPro:IPR000501,UniProtKB/Swiss-Prot:P09284,NCBI_GP:CAA27913.1;Name=CAA27913.1;Note=ORF30%3B~orthologue of HHV-1 UL28;gbkey=CDS;product=terminase subunit;protein_id=CAA27913.1
+X04370.1	EMBL	CDS	57008	59614	.	+	0	ID=cds-CAA27914.1;Dbxref=GOA:P09257,InterPro:IPR000234,UniProtKB/Swiss-Prot:P09257,NCBI_GP:CAA27914.1;Name=CAA27914.1;Note=ORF31%3B~orthologue of HHV-1 UL27;gbkey=CDS;product=envelope glycoprotein gB;protein_id=CAA27914.1
+X04370.1	EMBL	region	59643	59648	.	+	.	ID=id-X04370.1:59643..59648;Note=ORF31;gbkey=polyA_signal
+X04370.1	EMBL	CDS	59766	60197	.	+	0	ID=cds-CAA27915.1;Dbxref=UniProtKB/Swiss-Prot:P09285,NCBI_GP:CAA27915.1;Name=CAA27915.1;Note=ORF32;gbkey=CDS;product=CAA27915.1;protein_id=CAA27915.1
+X04370.1	EMBL	region	60208	60213	.	+	.	ID=id-X04370.1:60208..60213;Note=ORF32;gbkey=polyA_signal
+X04370.1	EMBL	region	60309	60314	.	-	.	ID=id-X04370.1:60309..60314;gbkey=polyA_signal
+X04370.1	EMBL	CDS	60321	62138	.	-	0	ID=cds-CAA27916.1;Dbxref=GOA:P09286,InterPro:IPR001847,PDB:1VZV,UniProtKB/Swiss-Prot:P09286,NCBI_GP:CAA27916.1;Name=CAA27916.1;Note=ORF33%3B~orthologue of HHV-1 UL26;gbkey=CDS;product=protease;protein_id=CAA27916.1
+X04370.1	EMBL	CDS	60321	61229	.	-	0	ID=cds-CAH19069.1;Dbxref=GOA:P09286,InterPro:IPR001847,PDB:1VZV,UniProtKB/Swiss-Prot:P09286,NCBI_GP:CAH19069.1;Name=CAH19069.1;Note=ORF33.5%3B~orthologue of HHV-1 UL26.5;gbkey=CDS;product=major capsid scaffold protein;protein_id=CAH19069.1
+X04370.1	EMBL	CDS	62171	63910	.	-	0	ID=cds-CAA27917.1;Dbxref=GOA:P09287,InterPro:IPR002493,UniProtKB/Swiss-Prot:P09287,NCBI_GP:CAA27917.1;Name=CAA27917.1;Note=ORF34%3B~orthologue of HHV-1 UL25;gbkey=CDS;product=CAA27917.1;protein_id=CAA27917.1
+X04370.1	EMBL	CDS	63977	64753	.	-	0	ID=cds-CAA27918.1;Dbxref=GOA:P09288,InterPro:IPR002580,UniProtKB/Swiss-Prot:P09288,NCBI_GP:CAA27918.1;Name=CAA27918.1;Note=ORF35%3B~orthologue of HHV-1 UL24;gbkey=CDS;product=CAA27918.1;protein_id=CAA27918.1
+X04370.1	EMBL	region	64364	64370	.	+	.	ID=id-X04370.1:64364..64370;Note=ORF36;gbkey=TATA_signal
+X04370.1	EMBL	five_prime_UTR	64385	64389	.	+	.	ID=id-X04370.1:64385..64389;Note=ORF36;gbkey=5'UTR
+X04370.1	EMBL	CDS	64807	65832	.	+	0	ID=cds-CAA27919.1;Dbxref=GOA:P09250,InterPro:IPR001889,UniProtKB/Swiss-Prot:P09250,NCBI_GP:CAA27919.1;Name=CAA27919.1;Note=ORF36%3B~orthologue of HHV-1 UL23;gbkey=CDS;product=deoxypyrimidine kinase;protein_id=CAA27919.1
+X04370.1	EMBL	region	65859	65864	.	+	.	ID=id-X04370.1:65859..65864;Note=ORF36;gbkey=polyA_signal
+X04370.1	EMBL	three_prime_UTR	65881	65885	.	+	.	ID=id-X04370.1:65881..65885;Note=ORF36;gbkey=3'UTR
+X04370.1	EMBL	CDS	66074	68599	.	+	0	ID=cds-CAA27920.1;Dbxref=GOA:P09260,InterPro:IPR003493,UniProtKB/Swiss-Prot:P09260,NCBI_GP:CAA27920.1;Name=CAA27920.1;Note=ORF37%3B~orthologue of HHV-1 UL22;gbkey=CDS;product=envelope glycoprotein gH;protein_id=CAA27920.1
+X04370.1	EMBL	region	68611	68616	.	+	.	ID=id-X04370.1:68611..68616;Note=ORF37;gbkey=polyA_signal
+X04370.1	EMBL	region	68647	68652	.	-	.	ID=id-X04370.1:68647..68652;Note=ORF38;gbkey=polyA_signal
+X04370.1	EMBL	CDS	68668	70293	.	-	0	ID=cds-CAA27921.1;Dbxref=GOA:P09289,InterPro:IPR004936,UniProtKB/Swiss-Prot:P09289,NCBI_GP:CAA27921.1;Name=CAA27921.1;Note=ORF38%3B~orthologue of HHV-1 UL21;gbkey=CDS;product=CAA27921.1;protein_id=CAA27921.1
+X04370.1	EMBL	CDS	70633	71355	.	+	0	ID=cds-CAA27922.1;Dbxref=GOA:P09290,InterPro:IPR007629,UniProtKB/Swiss-Prot:P09290,NCBI_GP:CAA27922.1;Name=CAA27922.1;Note=ORF39%3B~orthologue of HHV-1 UL20;gbkey=CDS;product=CAA27922.1;protein_id=CAA27922.1
+X04370.1	EMBL	region	71364	71369	.	+	.	ID=id-X04370.1:71364..71369;Note=ORF39;gbkey=polyA_signal
+X04370.1	EMBL	CDS	71540	75730	.	+	0	ID=cds-CAA27923.1;Dbxref=GOA:P09245,InterPro:IPR000912,UniProtKB/Swiss-Prot:P09245,NCBI_GP:CAA27923.1;Name=CAA27923.1;Note=ORF40%3B~orthologue of HHV-1 UL19;gbkey=CDS;product=major capsid protein;protein_id=CAA27923.1
+X04370.1	EMBL	region	75758	75763	.	+	.	ID=id-X04370.1:75758..75763;Note=ORF40;gbkey=polyA_signal
+X04370.1	EMBL	CDS	75847	76797	.	+	0	ID=cds-CAA27924.1;Dbxref=GOA:P09291,InterPro:IPR002690,UniProtKB/Swiss-Prot:P09291,NCBI_GP:CAA27924.1;Name=CAA27924.1;Note=ORF41%3B~orthologue of HHV-1 UL18;gbkey=CDS;product=minor capsid protein;protein_id=CAA27924.1
+X04370.1	EMBL	region	76807	76812	.	+	.	ID=id-X04370.1:76807..76812;Note=ORF41;gbkey=polyA_signal
+X04370.1	EMBL	region	76850	76855	.	-	.	ID=id-X04370.1:76850..76855;Note=ORF42%3B~ORF45;gbkey=polyA_signal
+X04370.1	EMBL	CDS	81538	82593	.	-	0	ID=cds-CAB55553.1;Dbxref=GOA:P09294,InterPro:IPR003498,InterPro:IPR003499,UniProtKB/Swiss-Prot:P09294,NCBI_GP:CAB55553.1;Name=CAB55553.1;Note=ORF45%3B~orthologue of HHV-1 UL15;gbkey=CDS;product=putative ATPase subunit of terminase;protein_id=CAB55553.1
+X04370.1	EMBL	CDS	76851	78038	.	-	0	ID=cds-CAB55553.1;Dbxref=GOA:P09294,InterPro:IPR003498,InterPro:IPR003499,UniProtKB/Swiss-Prot:P09294,NCBI_GP:CAB55553.1;Name=CAB55553.1;Note=ORF45%3B~orthologue of HHV-1 UL15;gbkey=CDS;product=putative ATPase subunit of terminase;protein_id=CAB55553.1
+X04370.1	EMBL	CDS	78170	80200	.	+	0	ID=cds-CAA27926.1;Dbxref=GOA:P09292,InterPro:IPR007640,UniProtKB/Swiss-Prot:P09292,NCBI_GP:CAA27926.1;Name=CAA27926.1;Note=ORF43%3B~orthologue of HHV-1 UL17;gbkey=CDS;product=CAA27926.1;protein_id=CAA27926.1
+X04370.1	EMBL	region	80196	80201	.	+	.	ID=id-X04370.1:80196..80201;gbkey=polyA_signal
+X04370.1	EMBL	CDS	80360	81451	.	+	0	ID=cds-CAA27927.1;Dbxref=GOA:P09293,InterPro:IPR004286,UniProtKB/Swiss-Prot:P09293,NCBI_GP:CAA27927.1;Name=CAA27927.1;Note=ORF44%3B~orthologue of HHV-1 UL16;gbkey=CDS;product=CAA27927.1;protein_id=CAA27927.1
+X04370.1	EMBL	region	81509	81514	.	+	.	ID=id-X04370.1:81509..81514;Note=ORF44;gbkey=polyA_signal
+X04370.1	EMBL	CDS	82719	83318	.	+	0	ID=cds-CAA27929.1;Dbxref=GOA:P09295,InterPro:IPR005207,UniProtKB/Swiss-Prot:P09295,NCBI_GP:CAA27929.1;Name=CAA27929.1;Note=ORF46%3B~orthologue of HHV-1 UL14;gbkey=CDS;product=CAA27929.1;protein_id=CAA27929.1
+X04370.1	EMBL	CDS	83168	84700	.	+	0	ID=cds-CAA27930.1;Dbxref=GOA:P09296,InterPro:IPR000719,InterPro:IPR008271,InterPro:IPR011009,InterPro:IPR017442,UniProtKB/Swiss-Prot:P09296,NCBI_GP:CAA27930.1;Name=CAA27930.1;Note=ORF47%3B~orthologue of HHV-1 UL13;gbkey=CDS;product=serine-threonine protein kinase;protein_id=CAA27930.1
+X04370.1	EMBL	CDS	84667	86322	.	+	0	ID=cds-CAA27931.1;Dbxref=GOA:P09253,InterPro:IPR001616,InterPro:IPR011335,UniProtKB/Swiss-Prot:P09253,NCBI_GP:CAA27931.1;Name=CAA27931.1;Note=ORF48%3B~orthologue of HHV-1 UL12;gbkey=CDS;product=deoxyribonuclease;protein_id=CAA27931.1
+X04370.1	EMBL	CDS	86226	86471	.	+	0	ID=cds-CAA27932.1;Dbxref=GOA:P09297,InterPro:IPR020192,UniProtKB/Swiss-Prot:P09297,NCBI_GP:CAA27932.1;Name=CAA27932.1;Note=anchored in envelope%3B~ORF49%3B~orthologue of HHV-1 UL11;gbkey=CDS;product=myristylated tegument protein;protein_id=CAA27932.1
+X04370.1	EMBL	region	86499	86504	.	+	.	ID=id-X04370.1:86499..86504;Note=ORF49;gbkey=polyA_signal
+X04370.1	EMBL	region	86541	86546	.	-	.	ID=id-X04370.1:86541..86546;Note=ORF50;gbkey=polyA_signal
+X04370.1	EMBL	CDS	86575	87882	.	-	0	ID=cds-CAA27934.1;Dbxref=GOA:P09298,InterPro:IPR000785,UniProtKB/Swiss-Prot:P09298,NCBI_GP:CAA27934.1;Name=CAA27934.1;Note=ORF50%3B~orthologue of HHV-1 UL10;gbkey=CDS;product=envelope glycoprotein gM;protein_id=CAA27934.1
+X04370.1	EMBL	CDS	87881	90388	.	+	0	ID=cds-CAA27933.1;Dbxref=GOA:P09299,InterPro:IPR003450,InterPro:IPR003593,InterPro:IPR014001,InterPro:IPR014021,UniProtKB/Swiss-Prot:P09299,NCBI_GP:CAA27933.1;Name=CAA27933.1;Note=ORF51%3B~orthologue of HHV-1 UL9;gbkey=CDS;product=helicase;protein_id=CAA27933.1
+X04370.1	EMBL	CDS	90493	92808	.	+	0	ID=cds-CAA27935.1;Dbxref=GOA:P09300,InterPro:IPR004996,UniProtKB/Swiss-Prot:P09300,NCBI_GP:CAA27935.1;Name=CAA27935.1;Note=ORF52%3B~orthologue of HHV-1 UL8;gbkey=CDS;product=CAA27935.1;protein_id=CAA27935.1
+X04370.1	EMBL	region	92841	92846	.	+	.	ID=id-X04370.1:92841..92846;Note=ORF52;gbkey=polyA_signal
+X04370.1	EMBL	region	92850	92855	.	-	.	ID=id-X04370.1:92850..92855;Note=ORF53;gbkey=polyA_signal
+X04370.1	EMBL	CDS	92855	93850	.	-	0	ID=cds-CAA27936.1;Dbxref=InterPro:IPR002600,UniProtKB/Swiss-Prot:P09301,NCBI_GP:CAA27936.1;Name=CAA27936.1;Note=ORF53%3B~orthologue of HHV-1 UL7;gbkey=CDS;product=CAA27936.1;protein_id=CAA27936.1
+X04370.1	EMBL	CDS	93675	95984	.	-	0	ID=cds-CAA27937.1;Dbxref=GOA:P09302,InterPro:IPR002660,UniProtKB/Swiss-Prot:P09302,NCBI_GP:CAA27937.1;Name=CAA27937.1;Note=ORF54%3B~orthologue of HHV-1 UL6;gbkey=CDS;product=portal protein;protein_id=CAA27937.1
+X04370.1	EMBL	CDS	95996	98641	.	+	0	ID=cds-CAA27938.1;Dbxref=GOA:P09303,InterPro:IPR003840,UniProtKB/Swiss-Prot:P09303,NCBI_GP:CAA27938.1;Name=CAA27938.1;Note=ORF55%3B~orthologue of HHV-1 UL5;gbkey=CDS;product=helicase;protein_id=CAA27938.1
+X04370.1	EMBL	CDS	98568	99302	.	+	0	ID=cds-CAA27939.1;Dbxref=GOA:P09304,InterPro:IPR004958,UniProtKB/Swiss-Prot:P09304,NCBI_GP:CAA27939.1;Name=CAA27939.1;Note=ORF56%3B~orthologue of HHV-1 UL4;gbkey=CDS;product=CAA27939.1;protein_id=CAA27939.1
+X04370.1	EMBL	region	99353	99358	.	+	.	ID=id-X04370.1:99353..99358;Note=ORF56;gbkey=polyA_signal
+X04370.1	EMBL	region	99387	99392	.	-	.	ID=id-X04370.1:99387..99392;Note=ORF57;gbkey=polyA_signal
+X04370.1	EMBL	CDS	99411	99626	.	-	0	ID=cds-CAA27940.1;Dbxref=UniProtKB/Swiss-Prot:P09305,NCBI_GP:CAA27940.1;Name=CAA27940.1;Note=ORF57;gbkey=CDS;product=CAA27940.1;protein_id=CAA27940.1
+X04370.1	EMBL	CDS	99607	100272	.	-	0	ID=cds-CAA27941.1;Dbxref=GOA:P09306,InterPro:IPR005035,UniProtKB/Swiss-Prot:P09306,NCBI_GP:CAA27941.1;Name=CAA27941.1;Note=ORF58%3B~orthologue of HHV-1 UL3;gbkey=CDS;product=CAA27941.1;protein_id=CAA27941.1
+X04370.1	EMBL	CDS	100302	101219	.	-	0	ID=cds-CAA27942.1;Dbxref=GOA:P09307,InterPro:IPR002043,InterPro:IPR005122,InterPro:IPR018085,UniProtKB/Swiss-Prot:P09307,NCBI_GP:CAA27942.1;Name=CAA27942.1;Note=ORF59%3B~orthologue of HHV-1 UL2;gbkey=CDS;product=uracil-DNA glycosylase;protein_id=CAA27942.1
+X04370.1	EMBL	CDS	101170	101649	.	-	0	ID=cds-CAA27943.1;Dbxref=GOA:P09308,InterPro:IPR007923,UniProtKB/Swiss-Prot:P09308,NCBI_GP:CAA27943.1;Name=CAA27943.1;Note=ORF60%3B~orthologue of HHV-1 UL1;gbkey=CDS;product=virion glycoprotein gL;protein_id=CAA27943.1
+X04370.1	EMBL	region	103001	103006	.	-	.	ID=id-X04370.1:103001..103006;Note=ORF61;gbkey=polyA_signal
+X04370.1	EMBL	CDS	103082	104485	.	-	0	ID=cds-CAA27944.1;Dbxref=GOA:P09309,InterPro:IPR001841,InterPro:IPR013083,InterPro:IPR017907,InterPro:IPR018957,UniProtKB/Swiss-Prot:P09309,NCBI_GP:CAA27944.1;Name=CAA27944.1;Note=ORF61%3B~orthologue of HHV-1 RL2;gbkey=CDS;product=ring-finger protein;protein_id=CAA27944.1
+X04370.1	EMBL	sequence_feature	104924	104925	.	+	.	ID=id-X04370.1:104924..104925;Note=UL/IRL boundary;gbkey=misc_feature
+X04370.1	EMBL	sequence_feature	105013	105014	.	+	.	ID=id-X04370.1:105013..105014;Note=IRL/IRS boundary;gbkey=misc_feature
+X04370.1	EMBL	region	105141	105147	.	-	.	ID=id-X04370.1:105141..105147;Note=ORF62;gbkey=polyA_signal
+X04370.1	EMBL	CDS	105201	109133	.	-	0	ID=cds-CAA27945.1;Dbxref=GOA:P09310,InterPro:IPR005205,InterPro:IPR005206,UniProtKB/Swiss-Prot:P09310,NCBI_GP:CAA27945.1;Name=CAA27945.1;Note=ORF62%3B~orthologue of HHV-1 RS1;gbkey=CDS;product=transcription regulator;protein_id=CAA27945.1
+X04370.1	EMBL	repeat_region	109762	109787	.	+	.	ID=id-X04370.1:109762..109787;Note=reiteration 4;gbkey=repeat_region
+X04370.1	EMBL	origin_of_replication	110087	110350	.	+	.	ID=id-X04370.1:110087..110350;Note=origin of DNA replication;gbkey=rep_origin
+X04370.1	EMBL	CDS	110581	111417	.	+	0	ID=cds-CAA27946.1;Dbxref=GOA:P09255,InterPro:IPR003403,UniProtKB/Swiss-Prot:P09255,NCBI_GP:CAA27946.1;Name=CAA27946.1;Note=ORF63%3B~orthologue of HHV-1 US1;gbkey=CDS;product=CAA27946.1;protein_id=CAA27946.1
+X04370.1	EMBL	region	111426	111431	.	+	.	ID=id-X04370.1:111426..111431;Note=ORF63;gbkey=polyA_signal
+X04370.1	EMBL	CDS	111565	112107	.	+	0	ID=cds-CAA27947.1;Dbxref=GOA:P09311,InterPro:IPR000714,UniProtKB/Swiss-Prot:P09311,NCBI_GP:CAA27947.1;Name=CAA27947.1;Note=ORF64%3B~orthologue of HHV-1 US10;gbkey=CDS;product=CAA27947.1;protein_id=CAA27947.1
+X04370.1	EMBL	region	112136	112141	.	+	.	ID=id-X04370.1:112136..112141;Note=ORF64;gbkey=polyA_signal
+X04370.1	EMBL	region	112176	112181	.	-	.	ID=id-X04370.1:112176..112181;Note=ORF65;gbkey=polyA_signal
+X04370.1	EMBL	CDS	112332	112640	.	-	0	ID=cds-CAA27948.1;Dbxref=GOA:P09312,InterPro:IPR009278,UniProtKB/Swiss-Prot:P09312,NCBI_GP:CAA27948.1;Name=CAA27948.1;Note=ORF65%3B~orthologue of HHV-1 US9;gbkey=CDS;product=CAA27948.1;protein_id=CAA27948.1
+X04370.1	EMBL	sequence_feature	112332	112333	.	+	.	ID=id-X04370.1:112332..112333;Note=IRS/US boundary;gbkey=misc_feature
+X04370.1	EMBL	CDS	113037	114218	.	+	0	ID=cds-CAA27949.1;Dbxref=GOA:P09251,InterPro:IPR000719,InterPro:IPR008271,InterPro:IPR011009,InterPro:IPR017442,UniProtKB/Swiss-Prot:P09251,NCBI_GP:CAA27949.1;Name=CAA27949.1;Note=ORF66%3B~orthologue of HHV-1 US3;gbkey=CDS;product=serine-threonine protein kinase;protein_id=CAA27949.1
+X04370.1	EMBL	region	114236	114241	.	+	.	ID=id-X04370.1:114236..114241;Note=ORF66;gbkey=polyA_signal
+X04370.1	EMBL	CDS	114496	115560	.	+	0	ID=cds-CAA27950.1;Dbxref=GOA:P09258,InterPro:IPR002874,UniProtKB/Swiss-Prot:P09258,NCBI_GP:CAA27950.1;Name=CAA27950.1;Note=ORF67%3B~orthologue of HHV-1 US7;gbkey=CDS;product=envelope glycoprotein gI;protein_id=CAA27950.1
+X04370.1	EMBL	region	115587	115592	.	+	.	ID=id-X04370.1:115587..115592;Note=ORF67;gbkey=polyA_signal
+X04370.1	EMBL	CDS	115808	117679	.	+	0	ID=cds-CAA27951.1;Dbxref=GOA:P09259,InterPro:IPR003404,UniProtKB/Swiss-Prot:P09259,NCBI_GP:CAA27951.1;Name=CAA27951.1;Note=ORF68%3B~orthologue of HHV-1 US8;gbkey=CDS;product=membrane glycoprotein gE;protein_id=CAA27951.1
+X04370.1	EMBL	sequence_feature	117564	117565	.	+	.	ID=id-X04370.1:117564..117565;Note=US/TRS boundary;gbkey=misc_feature
+X04370.1	EMBL	region	117716	117721	.	+	.	ID=id-X04370.1:117716..117721;Note=ORF68;gbkey=polyA_signal
+X04370.1	EMBL	region	117756	117761	.	-	.	ID=id-X04370.1:117756..117761;Note=ORF64;gbkey=polyA_signal
+X04370.1	EMBL	CDS	117790	118332	.	-	0	ID=cds-CAA27952.1;Dbxref=GOA:P09311,InterPro:IPR000714,UniProtKB/Swiss-Prot:P09311,NCBI_GP:CAA27952.1;Name=CAA27952.1;Note=ORF64%3B~orthologue of HHV-1 US10;gbkey=CDS;product=CAA27952.1;protein_id=CAA27952.1
+X04370.1	EMBL	region	118466	118471	.	-	.	ID=id-X04370.1:118466..118471;Note=ORF63;gbkey=polyA_signal
+X04370.1	EMBL	CDS	118480	119316	.	-	0	ID=cds-CAA27953.1;Dbxref=GOA:P09255,InterPro:IPR003403,UniProtKB/Swiss-Prot:P09255,NCBI_GP:CAA27953.1;Name=CAA27953.1;Note=ORF63%3B~orthologue of HHV-1 US1;gbkey=CDS;product=CAA27953.1;protein_id=CAA27953.1
+X04370.1	EMBL	origin_of_replication	119547	119810	.	+	.	ID=id-X04370.1:119547..119810;Note=origin of DNA replication;gbkey=rep_origin
+X04370.1	EMBL	repeat_region	119990	120135	.	+	.	ID=id-X04370.1:119990..120135;Note=reiteration R4;gbkey=repeat_region
+X04370.1	EMBL	CDS	120764	124696	.	+	0	ID=cds-CAA27954.1;Dbxref=GOA:P09310,InterPro:IPR005205,InterPro:IPR005206,UniProtKB/Swiss-Prot:P09310,NCBI_GP:CAA27954.1;Name=CAA27954.1;Note=ORF62%3B~orthologue of HHV-1 RS1;gbkey=CDS;product=transcriptional regulator;protein_id=CAA27954.1
+X04370.1	EMBL	region	124751	124756	.	+	.	ID=id-X04370.1:124751..124756;Note=ORF62;gbkey=polyA_signal
+
