@@ -1,0 +1,265 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region Z86099.2 1 154746
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=10310
+Z86099.2	EMBL	region	1	154746	.	+	.	ID=Z86099.2:1..154746;Dbxref=taxon:10310;gb-synonym=Herpes simplex virus 2;gbkey=Src;mol_type=genomic DNA;old-name=Human herpesvirus 2;strain=HG52
+Z86099.2	EMBL	sequence_feature	1	254	.	+	.	ID=id-Z86099.2:1..254;Note=a sequence;gbkey=misc_feature
+Z86099.2	EMBL	sequence_feature	255	255	.	+	.	ID=id-Z86099.2:255..255;Note=start of TRL (terminal copy of Long Repeat region);gbkey=misc_feature
+Z86099.2	EMBL	gene	440	1379	.	+	.	ID=gene-RL1;Name=RL1;gbkey=Gene;gene=RL1;gene_biotype=protein_coding
+Z86099.2	EMBL	CDS	440	934	.	+	0	ID=cds-CAB06759.1;Parent=gene-RL1;Dbxref=GOA:P28283,InterPro:IPR019523,UniProtKB/Swiss-Prot:P28283,NCBI_GP:CAB06759.1;Name=CAB06759.1;gbkey=CDS;gene=RL1;product=CAB06759.1;protein_id=CAB06759.1
+Z86099.2	EMBL	CDS	1089	1379	.	+	0	ID=cds-CAB06759.1;Parent=gene-RL1;Dbxref=GOA:P28283,InterPro:IPR019523,UniProtKB/Swiss-Prot:P28283,NCBI_GP:CAB06759.1;Name=CAB06759.1;gbkey=CDS;gene=RL1;product=CAB06759.1;protein_id=CAB06759.1
+Z86099.2	EMBL	exon	440	934	.	+	.	ID=id-RL1-1;Parent=gene-RL1;exon_number=1;gbkey=exon;gene=RL1;number=1
+Z86099.2	EMBL	exon	1089	1379	.	+	.	ID=id-RL1-2;Parent=gene-RL1;exon_number=2;gbkey=exon;gene=RL1;number=2;product=neurovirulence factor
+Z86099.2	EMBL	repeat_region	446	460	.	+	.	ID=id-RL1;gbkey=repeat_region;gene=RL1;rpt_family=7
+Z86099.2	EMBL	repeat_region	461	547	.	+	.	ID=id-RL1-3;gbkey=repeat_region;gene=RL1;rpt_family=6
+Z86099.2	EMBL	repeat_region	943	1070	.	+	.	ID=id-RL1-4;gbkey=repeat_region;gene=RL1;rpt_family=5
+Z86099.2	EMBL	region	1738	1743	.	+	.	ID=id-Z86099.2:1738..1743;gbkey=polyA_signal
+Z86099.2	EMBL	gene	2303	5368	.	+	.	ID=gene-RL2;Name=RL2;gbkey=Gene;gene=RL2;gene_biotype=protein_coding
+Z86099.2	EMBL	CDS	2303	2377	.	+	0	ID=cds-CAB06760.1;Parent=gene-RL2;Dbxref=GOA:P28284,InterPro:IPR001841,InterPro:IPR013083,InterPro:IPR017907,UniProtKB/Swiss-Prot:P28284,NCBI_GP:CAB06760.1;Name=CAB06760.1;gbkey=CDS;gene=RL2;product=CAB06760.1;protein_id=CAB06760.1
+Z86099.2	EMBL	CDS	2785	3462	.	+	0	ID=cds-CAB06760.1;Parent=gene-RL2;Dbxref=GOA:P28284,InterPro:IPR001841,InterPro:IPR013083,InterPro:IPR017907,UniProtKB/Swiss-Prot:P28284,NCBI_GP:CAB06760.1;Name=CAB06760.1;gbkey=CDS;gene=RL2;product=CAB06760.1;protein_id=CAB06760.1
+Z86099.2	EMBL	CDS	3644	5368	.	+	0	ID=cds-CAB06760.1;Parent=gene-RL2;Dbxref=GOA:P28284,InterPro:IPR001841,InterPro:IPR013083,InterPro:IPR017907,UniProtKB/Swiss-Prot:P28284,NCBI_GP:CAB06760.1;Name=CAB06760.1;gbkey=CDS;gene=RL2;product=CAB06760.1;protein_id=CAB06760.1
+Z86099.2	EMBL	exon	2303	2377	.	+	.	ID=id-RL2-1;Parent=gene-RL2;exon_number=1;gbkey=exon;gene=RL2;number=1
+Z86099.2	EMBL	exon	2785	3462	.	+	.	ID=id-RL2-2;Parent=gene-RL2;exon_number=2;gbkey=exon;gene=RL2;number=2
+Z86099.2	EMBL	exon	3644	5368	.	+	.	ID=id-RL2-3;Parent=gene-RL2;exon_number=3;function=modulator of cell state and gene expression;gbkey=exon;gene=RL2;number=3
+Z86099.2	EMBL	repeat_region	3468	3607	.	+	.	ID=id-RL2;gbkey=repeat_region;gene=RL2;rpt_family=4
+Z86099.2	EMBL	repeat_region	4655	4771	.	+	.	ID=id-RL2-4;gbkey=repeat_region;gene=RL2;rpt_family=3
+Z86099.2	EMBL	sequence_feature	4811	4811	.	-	.	ID=id-Z86099.2:4811..4811;Note=proposed LAT splice acceptor site;gbkey=misc_feature
+Z86099.2	EMBL	region	5618	5623	.	+	.	ID=id-Z86099.2:5618..5623;gbkey=polyA_signal
+Z86099.2	EMBL	sequence_feature	7025	7025	.	-	.	ID=id-Z86099.2:7025..7025;Note=proposed LAT splice donor site (5' end of stable LAT species);gbkey=misc_feature
+Z86099.2	EMBL	sequence_feature	7732	7732	.	-	.	ID=id-Z86099.2:7732..7732;Note=primary transcription initiation site for latency associated transcripts (LAT's);gbkey=misc_feature
+Z86099.2	EMBL	repeat_region	9047	9193	.	+	.	ID=id-Z86099.2:9047..9193;gbkey=repeat_region;rpt_family=2
+Z86099.2	EMBL	repeat_region	9276	9297	.	+	.	ID=id-Z86099.2:9276..9297;gbkey=repeat_region;rpt_family=1
+Z86099.2	EMBL	sequence_feature	9298	9298	.	+	.	ID=id-Z86099.2:9298..9298;Note=start of UL (Long Unique region);gbkey=misc_feature
+Z86099.2	EMBL	gene	9427	10101	.	+	.	ID=gene-UL1;Name=UL1;gbkey=Gene;gene=UL1;gene_biotype=protein_coding
+Z86099.2	EMBL	CDS	9427	10101	.	+	0	ID=cds-CAB06761.1;Parent=gene-UL1;Dbxref=GOA:P28278,InterPro:IPR007923,InterPro:IPR022200,PDB:3M1C,UniProtKB/Swiss-Prot:P28278,NCBI_GP:CAB06761.1;Name=CAB06761.1;gbkey=CDS;gene=UL1;product=virion glycoprotein L;protein_id=CAB06761.1
+Z86099.2	EMBL	gene	10211	10978	.	+	.	ID=gene-UL2;Name=UL2;gbkey=Gene;gene=UL2;gene_biotype=protein_coding
+Z86099.2	EMBL	CDS	10211	10978	.	+	0	ID=cds-CAB06762.1;Parent=gene-UL2;Dbxref=GOA:P28275,InterPro:IPR002043,InterPro:IPR005122,InterPro:IPR018085,UniProtKB/Swiss-Prot:P28275,NCBI_GP:CAB06762.1;Name=CAB06762.1;gbkey=CDS;gene=UL2;product=uracil-DNA glycosylase;protein_id=CAB06762.1
+Z86099.2	EMBL	region	11019	11024	.	+	.	ID=id-Z86099.2:11019..11024;gbkey=polyA_signal
+Z86099.2	EMBL	gene	11033	11734	.	+	.	ID=gene-UL3;Name=UL3;gbkey=Gene;gene=UL3;gene_biotype=protein_coding
+Z86099.2	EMBL	CDS	11033	11734	.	+	0	ID=cds-CAB06763.1;Parent=gene-UL3;Dbxref=GOA:P28279,InterPro:IPR005035,UniProtKB/Swiss-Prot:P28279,NCBI_GP:CAB06763.1;Name=CAB06763.1;gbkey=CDS;gene=UL3;product=CAB06763.1;protein_id=CAB06763.1
+Z86099.2	EMBL	region	11800	11805	.	+	.	ID=id-Z86099.2:11800..11805;gbkey=polyA_signal
+Z86099.2	EMBL	region	11846	11851	.	-	.	ID=id-Z86099.2:11846..11851;gbkey=polyA_signal
+Z86099.2	EMBL	gene	11932	12537	.	-	.	ID=gene-UL4;Name=UL4;gbkey=Gene;gene=UL4;gene_biotype=protein_coding
+Z86099.2	EMBL	CDS	11932	12537	.	-	0	ID=cds-CAB06764.1;Parent=gene-UL4;Dbxref=GOA:P28280,InterPro:IPR004958,UniProtKB/Swiss-Prot:P28280,NCBI_GP:CAB06764.1;Name=CAB06764.1;gbkey=CDS;gene=UL4;product=CAB06764.1;protein_id=CAB06764.1
+Z86099.2	EMBL	gene	12604	15249	.	-	.	ID=gene-UL5;Name=UL5;gbkey=Gene;gene=UL5;gene_biotype=protein_coding
+Z86099.2	EMBL	CDS	12604	15249	.	-	0	ID=cds-CAB06765.1;Parent=gene-UL5;Dbxref=GOA:P28277,InterPro:IPR003840,UniProtKB/Swiss-Prot:P28277,NCBI_GP:CAB06765.1;Name=CAB06765.1;gbkey=CDS;gene=UL5;product=CAB06765.1;protein_id=CAB06765.1
+Z86099.2	EMBL	gene	15248	17284	.	+	.	ID=gene-UL6;Name=UL6;gbkey=Gene;gene=UL6;gene_biotype=protein_coding
+Z86099.2	EMBL	CDS	15248	17284	.	+	0	ID=cds-CAB06766.1;Parent=gene-UL6;Dbxref=GOA:P89429,InterPro:IPR002660,UniProtKB/Swiss-Prot:P89429,NCBI_GP:CAB06766.1;Name=CAB06766.1;gbkey=CDS;gene=UL6;product=minor capsid protein;protein_id=CAB06766.1
+Z86099.2	EMBL	gene	17259	18149	.	+	.	ID=gene-UL7;Name=UL7;gbkey=Gene;gene=UL7;gene_biotype=protein_coding
+Z86099.2	EMBL	CDS	17259	18149	.	+	0	ID=cds-CAB06767.1;Parent=gene-UL7;Dbxref=InterPro:IPR002600,UniProtKB/Swiss-Prot:P89430,NCBI_GP:CAB06767.1;Name=CAB06767.1;gbkey=CDS;gene=UL7;product=CAB06767.1;protein_id=CAB06767.1
+Z86099.2	EMBL	region	18158	18163	.	+	.	ID=id-Z86099.2:18158..18163;gbkey=polyA_signal
+Z86099.2	EMBL	region	18393	18398	.	-	.	ID=id-Z86099.2:18393..18398;gbkey=polyA_signal
+Z86099.2	EMBL	gene	18407	20665	.	-	.	ID=gene-UL8;Name=UL8;gbkey=Gene;gene=UL8;gene_biotype=protein_coding
+Z86099.2	EMBL	CDS	18407	20665	.	-	0	ID=cds-CAB06768.1;Parent=gene-UL8;Dbxref=GOA:P89431,InterPro:IPR004996,UniProtKB/Swiss-Prot:P89431,NCBI_GP:CAB06768.1;Name=CAB06768.1;gbkey=CDS;gene=UL8;product=CAB06768.1;protein_id=CAB06768.1
+Z86099.2	EMBL	gene	20715	23318	.	-	.	ID=gene-UL9;Name=UL9;gbkey=Gene;gene=UL9;gene_biotype=protein_coding
+Z86099.2	EMBL	CDS	20715	23318	.	-	0	ID=cds-CAB06769.2;Parent=gene-UL9;Dbxref=GOA:P89432,InterPro:IPR003450,InterPro:IPR014001,InterPro:IPR014021,UniProtKB/Swiss-Prot:P89432,NCBI_GP:CAB06769.2;Name=CAB06769.2;gbkey=CDS;gene=UL9;product=CAB06769.2;protein_id=CAB06769.2
+Z86099.2	EMBL	gene	23209	24612	.	+	.	ID=gene-UL10;Name=UL10;gbkey=Gene;gene=UL10;gene_biotype=protein_coding
+Z86099.2	EMBL	CDS	23209	24612	.	+	0	ID=cds-CAB06770.1;Parent=gene-UL10;Dbxref=GOA:P89433,InterPro:IPR000785,UniProtKB/Swiss-Prot:P89433,NCBI_GP:CAB06770.1;Name=CAB06770.1;gbkey=CDS;gene=UL10;product=virion glycoprotein M;protein_id=CAB06770.1
+Z86099.2	EMBL	region	24629	24634	.	+	.	ID=id-Z86099.2:24629..24634;gbkey=polyA_signal
+Z86099.2	EMBL	region	24809	24814	.	-	.	ID=id-Z86099.2:24809..24814;gbkey=polyA_signal
+Z86099.2	EMBL	gene	24810	25100	.	-	.	ID=gene-UL11;Name=UL11;gbkey=Gene;gene=UL11;gene_biotype=protein_coding
+Z86099.2	EMBL	CDS	24810	25100	.	-	0	ID=cds-CAB06771.1;Parent=gene-UL11;Dbxref=GOA:P13294,InterPro:IPR016395,UniProtKB/Swiss-Prot:P13294,NCBI_GP:CAB06771.1;Name=CAB06771.1;gbkey=CDS;gene=UL11;product=myristylated tegument protein;protein_id=CAB06771.1
+Z86099.2	EMBL	gene	25016	26878	.	-	.	ID=gene-UL12;Name=UL12;gbkey=Gene;gene=UL12;gene_biotype=protein_coding
+Z86099.2	EMBL	CDS	25016	26878	.	-	0	ID=cds-CAB06772.1;Parent=gene-UL12;Dbxref=GOA:P89435,InterPro:IPR001616,InterPro:IPR011335,InterPro:IPR011604,UniProtKB/TrEMBL:P89435,NCBI_GP:CAB06772.1;Name=CAB06772.1;gbkey=CDS;gene=UL12;product=deoxyribonuclease;protein_id=CAB06772.1
+Z86099.2	EMBL	gene	26919	28475	.	-	.	ID=gene-UL13;Name=UL13;gbkey=Gene;gene=UL13;gene_biotype=protein_coding
+Z86099.2	EMBL	CDS	26919	28475	.	-	0	ID=cds-CAB06773.1;Parent=gene-UL13;Dbxref=GOA:P89436,InterPro:IPR000719,InterPro:IPR008271,InterPro:IPR011009,InterPro:IPR017442,UniProtKB/Swiss-Prot:P89436,NCBI_GP:CAB06773.1;Name=CAB06773.1;gbkey=CDS;gene=UL13;product=protein kinase;protein_id=CAB06773.1
+Z86099.2	EMBL	gene	28229	28888	.	-	.	ID=gene-UL14;Name=UL14;gbkey=Gene;gene=UL14;gene_biotype=protein_coding
+Z86099.2	EMBL	CDS	28229	28888	.	-	0	ID=cds-CAB06774.1;Parent=gene-UL14;Dbxref=GOA:P89437,InterPro:IPR005207,UniProtKB/Swiss-Prot:P89437,NCBI_GP:CAB06774.1;Name=CAB06774.1;gbkey=CDS;gene=UL14;product=CAB06774.1;protein_id=CAB06774.1
+Z86099.2	EMBL	gene	28969	34772	.	+	.	ID=gene-UL15;Name=UL15;gbkey=Gene;gene=UL15;gene_biotype=protein_coding
+Z86099.2	EMBL	CDS	28969	29997	.	+	0	ID=cds-CAB06775.1;Parent=gene-UL15;Dbxref=GOA:P89438,InterPro:IPR003498,InterPro:IPR003499,UniProtKB/TrEMBL:P89438,NCBI_GP:CAB06775.1;Name=CAB06775.1;gbkey=CDS;gene=UL15;product=CAB06775.1;protein_id=CAB06775.1
+Z86099.2	EMBL	CDS	33597	34772	.	+	0	ID=cds-CAB06775.1;Parent=gene-UL15;Dbxref=GOA:P89438,InterPro:IPR003498,InterPro:IPR003499,UniProtKB/TrEMBL:P89438,NCBI_GP:CAB06775.1;Name=CAB06775.1;gbkey=CDS;gene=UL15;product=CAB06775.1;protein_id=CAB06775.1
+Z86099.2	EMBL	exon	28969	29997	.	+	.	ID=id-UL15-1;Parent=gene-UL15;exon_number=1;gbkey=exon;gene=UL15;number=1
+Z86099.2	EMBL	exon	33597	34772	.	+	.	ID=id-UL15-2;Parent=gene-UL15;exon_number=2;gbkey=exon;gene=UL15;number=2
+Z86099.2	EMBL	region	30142	30147	.	-	.	ID=id-Z86099.2:30142..30147;gbkey=polyA_signal
+Z86099.2	EMBL	gene	30143	31261	.	-	.	ID=gene-UL16;Name=UL16;gbkey=Gene;gene=UL16;gene_biotype=protein_coding
+Z86099.2	EMBL	CDS	30143	31261	.	-	0	ID=cds-CAB06776.1;Parent=gene-UL16;Dbxref=InterPro:IPR004286,UniProtKB/TrEMBL:P89439,NCBI_GP:CAB06776.1;Name=CAB06776.1;Note=proposed start codon is CTG;gbkey=CDS;gene=UL16;product=CAB06776.1;protein_id=CAB06776.1
+Z86099.2	EMBL	gene	31363	33471	.	-	.	ID=gene-UL17;Name=UL17;gbkey=Gene;gene=UL17;gene_biotype=protein_coding
+Z86099.2	EMBL	CDS	31363	33471	.	-	0	ID=cds-CAB06741.1;Parent=gene-UL17;Dbxref=GOA:P89440,InterPro:IPR007640,UniProtKB/TrEMBL:P89440,NCBI_GP:CAB06741.1;Name=CAB06741.1;gbkey=CDS;gene=UL17;product=CAB06741.1;protein_id=CAB06741.1
+Z86099.2	EMBL	region	34824	34829	.	+	.	ID=id-Z86099.2:34824..34829;gbkey=polyA_signal
+Z86099.2	EMBL	region	35049	35054	.	-	.	ID=id-Z86099.2:35049..35054;gbkey=polyA_signal
+Z86099.2	EMBL	gene	35115	36071	.	-	.	ID=gene-UL18;Name=UL18;gbkey=Gene;gene=UL18;gene_biotype=protein_coding
+Z86099.2	EMBL	CDS	35115	36071	.	-	0	ID=cds-CAB06742.1;Parent=gene-UL18;Dbxref=GOA:P89441,InterPro:IPR002690,UniProtKB/TrEMBL:P89441,NCBI_GP:CAB06742.1;Name=CAB06742.1;gbkey=CDS;gene=UL18;product=capsid protein;protein_id=CAB06742.1
+Z86099.2	EMBL	region	36275	36280	.	-	.	ID=id-Z86099.2:36275..36280;gbkey=polyA_signal
+Z86099.2	EMBL	gene	36448	40572	.	-	.	ID=gene-UL19;Name=UL19;gbkey=Gene;gene=UL19;gene_biotype=protein_coding
+Z86099.2	EMBL	CDS	36448	40572	.	-	0	ID=cds-CAB06743.1;Parent=gene-UL19;Dbxref=GOA:P89442,HSSP:1NO7,InterPro:IPR000912,UniProtKB/TrEMBL:P89442,NCBI_GP:CAB06743.1;Name=CAB06743.1;gbkey=CDS;gene=UL19;product=major capsid protein;protein_id=CAB06743.1
+Z86099.2	EMBL	gene	40884	41552	.	-	.	ID=gene-UL20;Name=UL20;gbkey=Gene;gene=UL20;gene_biotype=protein_coding
+Z86099.2	EMBL	CDS	40884	41552	.	-	0	ID=cds-CAB06744.1;Parent=gene-UL20;Dbxref=GOA:P89443,InterPro:IPR007629,UniProtKB/TrEMBL:P89443,NCBI_GP:CAB06744.1;Name=CAB06744.1;gbkey=CDS;gene=UL20;product=integral membrane protein;protein_id=CAB06744.1
+Z86099.2	EMBL	gene	42201	43799	.	+	.	ID=gene-UL21;Name=UL21;gbkey=Gene;gene=UL21;gene_biotype=protein_coding
+Z86099.2	EMBL	CDS	42201	43799	.	+	0	ID=cds-CAB06745.1;Parent=gene-UL21;Dbxref=GOA:P89444,InterPro:IPR004936,UniProtKB/Swiss-Prot:P89444,NCBI_GP:CAB06745.1;Name=CAB06745.1;gbkey=CDS;gene=UL21;product=CAB06745.1;protein_id=CAB06745.1
+Z86099.2	EMBL	region	43808	43813	.	+	.	ID=id-Z86099.2:43808..43813;gbkey=polyA_signal
+Z86099.2	EMBL	region	44015	44020	.	-	.	ID=id-Z86099.2:44015..44020;gbkey=polyA_signal
+Z86099.2	EMBL	gene	44016	46532	.	-	.	ID=gene-UL22;Name=UL22;gbkey=Gene;gene=UL22;gene_biotype=protein_coding
+Z86099.2	EMBL	CDS	44016	46532	.	-	0	ID=cds-CAB06746.1;Parent=gene-UL22;Dbxref=GOA:P89445,InterPro:IPR003493,PDB:3M1C,UniProtKB/Swiss-Prot:P89445,NCBI_GP:CAB06746.1;Name=CAB06746.1;gbkey=CDS;gene=UL22;product=virion glycoprotein H;protein_id=CAB06746.1
+Z86099.2	EMBL	region	46806	46811	.	-	.	ID=id-Z86099.2:46806..46811;gbkey=polyA_signal
+Z86099.2	EMBL	region	46819	46824	.	-	.	ID=id-Z86099.2:46819..46824;gbkey=polyA_signal
+Z86099.2	EMBL	gene	46870	48000	.	-	.	ID=gene-UL23;Name=UL23;gbkey=Gene;gene=UL23;gene_biotype=protein_coding
+Z86099.2	EMBL	CDS	46870	48000	.	-	0	ID=cds-CAB06747.1;Parent=gene-UL23;Dbxref=GOA:P89446,HSSP:1E2I,InterPro:IPR001889,UniProtKB/Swiss-Prot:P89446,NCBI_GP:CAB06747.1;Name=CAB06747.1;gbkey=CDS;gene=UL23;product=thymidine kinase;protein_id=CAB06747.1
+Z86099.2	EMBL	gene	47902	48747	.	+	.	ID=gene-UL24;Name=UL24;gbkey=Gene;gene=UL24;gene_biotype=protein_coding
+Z86099.2	EMBL	CDS	47902	48747	.	+	0	ID=cds-CAB06748.1;Parent=gene-UL24;Dbxref=GOA:P89447,InterPro:IPR002580,UniProtKB/Swiss-Prot:P89447,NCBI_GP:CAB06748.1;Name=CAB06748.1;gbkey=CDS;gene=UL24;product=CAB06748.1;protein_id=CAB06748.1
+Z86099.2	EMBL	gene	49037	50794	.	+	.	ID=gene-UL25;Name=UL25;gbkey=Gene;gene=UL25;gene_biotype=protein_coding
+Z86099.2	EMBL	CDS	49037	50794	.	+	0	ID=cds-CAB06749.1;Parent=gene-UL25;Dbxref=InterPro:IPR002493,UniProtKB/TrEMBL:P89448,NCBI_GP:CAB06749.1;Name=CAB06749.1;gbkey=CDS;gene=UL25;product=capsid associated tegument protein;protein_id=CAB06749.1
+Z86099.2	EMBL	gene	51029	52942	.	+	.	ID=gene-UL26;Name=UL26;gbkey=Gene;gene=UL26;gene_biotype=protein_coding
+Z86099.2	EMBL	CDS	51029	52942	.	+	0	ID=cds-CAB06750.1;Parent=gene-UL26;Dbxref=GOA:P89449,HSSP:1AT3,InterPro:IPR001847,UniProtKB/TrEMBL:P89449,NCBI_GP:CAB06750.1;Name=CAB06750.1;gbkey=CDS;gene=UL26;product=protease;protein_id=CAB06750.1
+Z86099.2	EMBL	gene	51953	52942	.	+	.	ID=gene-UL26.5;Name=UL26.5;gbkey=Gene;gene=UL26.5;gene_biotype=protein_coding
+Z86099.2	EMBL	CDS	51953	52942	.	+	0	ID=cds-CAB06751.1;Parent=gene-UL26.5;Dbxref=UniProtKB/TrEMBL:P90341,NCBI_GP:CAB06751.1;Name=CAB06751.1;gbkey=CDS;gene=UL26.5;product=CAB06751.1;protein_id=CAB06751.1
+Z86099.2	EMBL	region	52994	52999	.	+	.	ID=id-Z86099.2:52994..52999;gbkey=polyA_signal
+Z86099.2	EMBL	region	53367	53372	.	-	.	ID=id-Z86099.2:53367..53372;gbkey=polyA_signal
+Z86099.2	EMBL	gene	53403	56117	.	-	.	ID=gene-UL27;Name=UL27;gbkey=Gene;gene=UL27;gene_biotype=protein_coding
+Z86099.2	EMBL	CDS	53403	56117	.	-	0	ID=cds-CAB06752.1;Parent=gene-UL27;Dbxref=GOA:P08666,InterPro:IPR000234,UniProtKB/Swiss-Prot:P08666,NCBI_GP:CAB06752.1;Name=CAB06752.1;gbkey=CDS;gene=UL27;product=glycoprotein B;protein_id=CAB06752.1
+Z86099.2	EMBL	gene	56125	58482	.	-	.	ID=gene-UL28;Name=UL28;gbkey=Gene;gene=UL28;gene_biotype=protein_coding
+Z86099.2	EMBL	CDS	56125	58482	.	-	0	ID=cds-CAB06753.1;Parent=gene-UL28;Dbxref=GOA:P89451,InterPro:IPR000501,UniProtKB/TrEMBL:P89451,NCBI_GP:CAB06753.1;Name=CAB06753.1;gbkey=CDS;gene=UL28;product=CAB06753.1;protein_id=CAB06753.1
+Z86099.2	EMBL	region	58805	58810	.	-	.	ID=id-Z86099.2:58805..58810;gbkey=polyA_signal
+Z86099.2	EMBL	gene	58857	62447	.	-	.	ID=gene-UL29;Name=UL29;gbkey=Gene;gene=UL29;gene_biotype=protein_coding
+Z86099.2	EMBL	CDS	58857	62447	.	-	0	ID=cds-CAB06754.1;Parent=gene-UL29;Dbxref=GOA:P89452,InterPro:IPR000635,UniProtKB/Swiss-Prot:P89452,NCBI_GP:CAB06754.1;Name=CAB06754.1;gbkey=CDS;gene=UL29;product=CAB06754.1;protein_id=CAB06754.1
+Z86099.2	EMBL	origin_of_replication	62929	62930	.	+	.	ID=id-Z86099.2:62929..62930;Note=centre of ORIL;end_range=62930,.;gbkey=rep_origin;partial=true;start_range=.,62929
+Z86099.2	EMBL	gene	63265	66987	.	+	.	ID=gene-UL30;Name=UL30;gbkey=Gene;gene=UL30;gene_biotype=protein_coding
+Z86099.2	EMBL	CDS	63265	66987	.	+	0	ID=cds-CAB06755.1;Parent=gene-UL30;Dbxref=GOA:P89453,InterPro:IPR006133,InterPro:IPR006134,InterPro:IPR006172,InterPro:IPR012337,InterPro:IPR017964,InterPro:IPR021639,UniProtKB/Swiss-Prot:P89453,NCBI_GP:CAB06755.1;Name=CAB06755.1;gbkey=CDS;gene=UL30;product=DNA polymerase;protein_id=CAB06755.1
+Z86099.2	EMBL	region	66850	66855	.	-	.	ID=id-Z86099.2:66850..66855;gbkey=polyA_signal
+Z86099.2	EMBL	gene	66932	67849	.	-	.	ID=gene-UL31;Name=UL31;gbkey=Gene;gene=UL31;gene_biotype=protein_coding
+Z86099.2	EMBL	CDS	66932	67849	.	-	0	ID=cds-CAB06756.1;Parent=gene-UL31;Dbxref=InterPro:IPR021152,UniProtKB/TrEMBL:P89454,NCBI_GP:CAB06756.1;Name=CAB06756.1;gbkey=CDS;gene=UL31;product=CAB06756.1;protein_id=CAB06756.1
+Z86099.2	EMBL	region	67021	67026	.	+	.	ID=id-Z86099.2:67021..67026;gbkey=polyA_signal
+Z86099.2	EMBL	gene	67842	69638	.	-	.	ID=gene-UL32;Name=UL32;gbkey=Gene;gene=UL32;gene_biotype=protein_coding
+Z86099.2	EMBL	CDS	67842	69638	.	-	0	ID=cds-CAB06757.1;Parent=gene-UL32;Dbxref=GOA:P89455,InterPro:IPR002597,UniProtKB/TrEMBL:P89455,NCBI_GP:CAB06757.1;Name=CAB06757.1;gbkey=CDS;gene=UL32;product=CAB06757.1;protein_id=CAB06757.1
+Z86099.2	EMBL	gene	69637	70029	.	+	.	ID=gene-UL33;Name=UL33;gbkey=Gene;gene=UL33;gene_biotype=protein_coding
+Z86099.2	EMBL	CDS	69637	70029	.	+	0	ID=cds-CAB06758.1;Parent=gene-UL33;Dbxref=GOA:P89456,InterPro:IPR005208,UniProtKB/TrEMBL:P89456,NCBI_GP:CAB06758.1;Name=CAB06758.1;gbkey=CDS;gene=UL33;product=CAB06758.1;protein_id=CAB06758.1
+Z86099.2	EMBL	gene	70119	70949	.	+	.	ID=gene-UL34;Name=UL34;gbkey=Gene;gene=UL34;gene_biotype=protein_coding
+Z86099.2	EMBL	CDS	70119	70949	.	+	0	ID=cds-CAB06720.1;Parent=gene-UL34;Dbxref=InterPro:IPR007626,UniProtKB/TrEMBL:P89457,NCBI_GP:CAB06720.1;Name=CAB06720.1;gbkey=CDS;gene=UL34;product=membrane associated phosphoprotein;protein_id=CAB06720.1
+Z86099.2	EMBL	gene	71061	71399	.	+	.	ID=gene-UL35;Name=UL35;gbkey=Gene;gene=UL35;gene_biotype=protein_coding
+Z86099.2	EMBL	CDS	71061	71399	.	+	0	ID=cds-CAB06721.1;Parent=gene-UL35;Dbxref=GOA:P89458,InterPro:IPR007584,UniProtKB/TrEMBL:P89458,NCBI_GP:CAB06721.1;Name=CAB06721.1;gbkey=CDS;gene=UL35;product=capsid protein;protein_id=CAB06721.1
+Z86099.2	EMBL	region	71464	71469	.	+	.	ID=id-Z86099.2:71464..71469;gbkey=polyA_signal
+Z86099.2	EMBL	region	71503	71508	.	-	.	ID=id-Z86099.2:71503..71508;gbkey=polyA_signal
+Z86099.2	EMBL	gene	71566	80934	.	-	.	ID=gene-UL36;Name=UL36;gbkey=Gene;gene=UL36;gene_biotype=protein_coding
+Z86099.2	EMBL	CDS	71566	80934	.	-	0	ID=cds-CAB06722.1;Parent=gene-UL36;Dbxref=GOA:P89459,InterPro:IPR005210,InterPro:IPR006928,UniProtKB/Swiss-Prot:P89459,NCBI_GP:CAB06722.1;Name=CAB06722.1;gbkey=CDS;gene=UL36;product=very large tegument protein;protein_id=CAB06722.1
+Z86099.2	EMBL	repeat_region	72098	72262	.	+	.	ID=id-Z86099.2:72098..72262;Note=11x15 base pair repeat;gbkey=repeat_region
+Z86099.2	EMBL	region	81206	81211	.	-	.	ID=id-Z86099.2:81206..81211;gbkey=polyA_signal
+Z86099.2	EMBL	gene	81234	84578	.	-	.	ID=gene-UL37;Name=UL37;gbkey=Gene;gene=UL37;gene_biotype=protein_coding
+Z86099.2	EMBL	CDS	81234	84578	.	-	0	ID=cds-CAB06723.1;Parent=gene-UL37;Dbxref=GOA:P89460,InterPro:IPR005655,UniProtKB/TrEMBL:P89460,NCBI_GP:CAB06723.1;Name=CAB06723.1;gbkey=CDS;gene=UL37;product=tegument protein;protein_id=CAB06723.1
+Z86099.2	EMBL	gene	85061	86461	.	+	.	ID=gene-UL38;Name=UL38;gbkey=Gene;gene=UL38;gene_biotype=protein_coding
+Z86099.2	EMBL	CDS	85061	86461	.	+	0	ID=cds-CAB06724.1;Parent=gene-UL38;Dbxref=GOA:P89461,InterPro:IPR004999,UniProtKB/Swiss-Prot:P89461,NCBI_GP:CAB06724.1;Name=CAB06724.1;gbkey=CDS;gene=UL38;product=capsid protein;protein_id=CAB06724.1
+Z86099.2	EMBL	region	86578	86583	.	+	.	ID=id-Z86099.2:86578..86583;gbkey=polyA_signal
+Z86099.2	EMBL	gene	87024	90452	.	+	.	ID=gene-UL39;Name=UL39;gbkey=Gene;gene=UL39;gene_biotype=protein_coding
+Z86099.2	EMBL	CDS	87024	90452	.	+	0	ID=cds-CAB06725.1;Parent=gene-UL39;Dbxref=GOA:P89462,HSSP:2CVY,InterPro:IPR000788,InterPro:IPR013346,InterPro:IPR013509,UniProtKB/Swiss-Prot:P89462,NCBI_GP:CAB06725.1;Name=CAB06725.1;gbkey=CDS;gene=UL39;product=ribonucleotide reductase large subunit;protein_id=CAB06725.1
+Z86099.2	EMBL	gene	90505	91518	.	+	.	ID=gene-UL40;Name=UL40;gbkey=Gene;gene=UL40;gene_biotype=protein_coding
+Z86099.2	EMBL	CDS	90505	91518	.	+	0	ID=cds-CAB06726.1;Parent=gene-UL40;Dbxref=GOA:P69521,InterPro:IPR000358,InterPro:IPR009078,InterPro:IPR012348,UniProtKB/Swiss-Prot:P69521,NCBI_GP:CAB06726.1;Name=CAB06726.1;gbkey=CDS;gene=UL40;product=ribonucleotide reductase small subunit;protein_id=CAB06726.1
+Z86099.2	EMBL	region	91553	91558	.	+	.	ID=id-Z86099.2:91553..91558;gbkey=polyA_signal
+Z86099.2	EMBL	region	91728	91733	.	-	.	ID=id-Z86099.2:91728..91733;gbkey=polyA_signal
+Z86099.2	EMBL	gene	91797	93275	.	-	.	ID=gene-UL41;Name=UL41;gbkey=Gene;gene=UL41;gene_biotype=protein_coding
+Z86099.2	EMBL	CDS	91797	93275	.	-	0	ID=cds-CAB06727.1;Parent=gene-UL41;Dbxref=GOA:P68340,InterPro:IPR006086,UniProtKB/Swiss-Prot:P68340,NCBI_GP:CAB06727.1;Name=CAB06727.1;Note=Gene UL41 in HSV-2 HG52 contains a frameshift. For purposes of presentation in the data library this has been corrected in the version listed here by the addition of one extra G at 92256 as in HSV2 strain G;gbkey=CDS;gene=UL41;product=tegument protein%3B host shut-off factor;protein_id=CAB06727.1
+Z86099.2	EMBL	gene	93769	95181	.	+	.	ID=gene-UL42;Name=UL42;gbkey=Gene;gene=UL42;gene_biotype=protein_coding
+Z86099.2	EMBL	CDS	93769	95181	.	+	0	ID=cds-CAB06728.1;Parent=gene-UL42;Dbxref=GOA:P89463,HSSP:1DML,InterPro:IPR003202,UniProtKB/Swiss-Prot:P89463,NCBI_GP:CAB06728.1;Name=CAB06728.1;gbkey=CDS;gene=UL42;product=subunit of replicative DNA polymerase;protein_id=CAB06728.1
+Z86099.2	EMBL	region	95250	95255	.	+	.	ID=id-Z86099.2:95250..95255;gbkey=polyA_signal
+Z86099.2	EMBL	gene	95433	96677	.	+	.	ID=gene-UL43;Name=UL43;gbkey=Gene;gene=UL43;gene_biotype=protein_coding
+Z86099.2	EMBL	CDS	95433	96677	.	+	0	ID=cds-CAB06729.1;Parent=gene-UL43;Dbxref=GOA:P89464,InterPro:IPR007764,UniProtKB/Swiss-Prot:P89464,NCBI_GP:CAB06729.1;Name=CAB06729.1;gbkey=CDS;gene=UL43;product=CAB06729.1;protein_id=CAB06729.1
+Z86099.2	EMBL	region	96689	96694	.	+	.	ID=id-Z86099.2:96689..96694;gbkey=polyA_signal
+Z86099.2	EMBL	gene	96979	98421	.	+	.	ID=gene-UL44;Name=UL44;gbkey=Gene;gene=UL44;gene_biotype=protein_coding
+Z86099.2	EMBL	CDS	96979	98421	.	+	0	ID=cds-CAB06730.1;Parent=gene-UL44;Dbxref=GOA:Q89730,InterPro:IPR001038,InterPro:IPR007110,InterPro:IPR013783,UniProtKB/Swiss-Prot:Q89730,NCBI_GP:CAB06730.1;Name=CAB06730.1;gbkey=CDS;gene=UL44;product=virion glycoprotein C;protein_id=CAB06730.1
+Z86099.2	EMBL	gene	98651	99169	.	+	.	ID=gene-UL45;Name=UL45;gbkey=Gene;gene=UL45;gene_biotype=protein_coding
+Z86099.2	EMBL	CDS	98651	99169	.	+	0	ID=cds-CAB06731.1;Parent=gene-UL45;Dbxref=GOA:P89465,InterPro:IPR008646,InterPro:IPR018002,UniProtKB/Swiss-Prot:P89465,NCBI_GP:CAB06731.1;Name=CAB06731.1;gbkey=CDS;gene=UL45;product=tegument/envelope protein;protein_id=CAB06731.1
+Z86099.2	EMBL	region	99294	99299	.	+	.	ID=id-Z86099.2:99294..99299;gbkey=polyA_signal
+Z86099.2	EMBL	region	99361	99366	.	-	.	ID=id-Z86099.2:99361..99366;gbkey=polyA_signal
+Z86099.2	EMBL	gene	99429	101597	.	-	.	ID=gene-UL46;Name=UL46;gbkey=Gene;gene=UL46;gene_biotype=protein_coding
+Z86099.2	EMBL	CDS	99429	101597	.	-	0	ID=cds-CAB06732.1;Parent=gene-UL46;Dbxref=GOA:P89466,InterPro:IPR005051,UniProtKB/Swiss-Prot:P89466,NCBI_GP:CAB06732.1;Name=CAB06732.1;gbkey=CDS;gene=UL46;product=tegument protein;protein_id=CAB06732.1
+Z86099.2	EMBL	gene	101682	103772	.	-	.	ID=gene-UL47;Name=UL47;gbkey=Gene;gene=UL47;gene_biotype=protein_coding
+Z86099.2	EMBL	CDS	101682	103772	.	-	0	ID=cds-CAB06733.1;Parent=gene-UL47;Dbxref=GOA:P89467,InterPro:IPR005029,UniProtKB/Swiss-Prot:P89467,NCBI_GP:CAB06733.1;Name=CAB06733.1;gbkey=CDS;gene=UL47;product=tegument protein and transactivator of immediate early genes;protein_id=CAB06733.1
+Z86099.2	EMBL	region	104201	104206	.	-	.	ID=id-Z86099.2:104201..104206;gbkey=polyA_signal
+Z86099.2	EMBL	gene	104294	105766	.	-	.	ID=gene-UL48;Name=UL48;gbkey=Gene;gene=UL48;gene_biotype=protein_coding
+Z86099.2	EMBL	CDS	104294	105766	.	-	0	ID=cds-CAB06734.1;Parent=gene-UL48;Dbxref=GOA:P68336,InterPro:IPR003174,InterPro:IPR021051,UniProtKB/Swiss-Prot:P68336,NCBI_GP:CAB06734.1;Name=CAB06734.1;gbkey=CDS;gene=UL48;product=tegument protein;protein_id=CAB06734.1
+Z86099.2	EMBL	repeat_region	106047	106163	.	+	.	ID=id-Z86099.2:106047..106163;Note=13x9 base pair repeat;gbkey=repeat_region
+Z86099.2	EMBL	region	106213	106218	.	-	.	ID=id-Z86099.2:106213..106218;gbkey=polyA_signal
+Z86099.2	EMBL	gene	106247	107149	.	-	.	ID=gene-UL49;Name=UL49;gbkey=Gene;gene=UL49;gene_biotype=protein_coding
+Z86099.2	EMBL	CDS	106247	107149	.	-	0	ID=cds-CAB06735.1;Parent=gene-UL49;Dbxref=GOA:P89468,InterPro:IPR006908,UniProtKB/Swiss-Prot:P89468,NCBI_GP:CAB06735.1;Name=CAB06735.1;gbkey=CDS;gene=UL49;product=tegument protein;protein_id=CAB06735.1
+Z86099.2	EMBL	gene	107488	107751	.	-	.	ID=gene-UL49A;Name=UL49A;gbkey=Gene;gene=UL49A;gene_biotype=protein_coding
+Z86099.2	EMBL	CDS	107488	107751	.	-	0	ID=cds-CAB06736.1;Parent=gene-UL49A;Dbxref=GOA:Q86539,InterPro:IPR017376,UniProtKB/Swiss-Prot:Q86539,NCBI_GP:CAB06736.1;Name=CAB06736.1;gbkey=CDS;gene=UL49A;product=envelope protein;protein_id=CAB06736.1
+Z86099.2	EMBL	gene	107759	108868	.	+	.	ID=gene-UL50;Name=UL50;gbkey=Gene;gene=UL50;gene_biotype=protein_coding
+Z86099.2	EMBL	CDS	107759	108868	.	+	0	ID=cds-CAB06737.1;Parent=gene-UL50;Dbxref=GOA:P89469,InterPro:IPR008180,UniProtKB/Swiss-Prot:P89469,NCBI_GP:CAB06737.1;Name=CAB06737.1;gbkey=CDS;gene=UL50;product=deoxyuridine triphosphatase;protein_id=CAB06737.1
+Z86099.2	EMBL	region	108905	108910	.	+	.	ID=id-Z86099.2:108905..108910;gbkey=polyA_signal
+Z86099.2	EMBL	region	109048	109053	.	-	.	ID=id-Z86099.2:109048..109053;gbkey=polyA_signal
+Z86099.2	EMBL	gene	109073	109807	.	-	.	ID=gene-UL51;Name=UL51;gbkey=Gene;gene=UL51;gene_biotype=protein_coding
+Z86099.2	EMBL	CDS	109073	109807	.	-	0	ID=cds-CAB06738.1;Parent=gene-UL51;Dbxref=GOA:P89470,InterPro:IPR007625,UniProtKB/Swiss-Prot:P89470,NCBI_GP:CAB06738.1;Name=CAB06738.1;gbkey=CDS;gene=UL51;product=CAB06738.1;protein_id=CAB06738.1
+Z86099.2	EMBL	gene	109875	113075	.	+	.	ID=gene-UL52;Name=UL52;gbkey=Gene;gene=UL52;gene_biotype=protein_coding
+Z86099.2	EMBL	CDS	109875	113075	.	+	0	ID=cds-CAB06739.1;Parent=gene-UL52;Dbxref=GOA:P89471,InterPro:IPR004340,UniProtKB/Swiss-Prot:P89471,NCBI_GP:CAB06739.1;Name=CAB06739.1;gbkey=CDS;gene=UL52;product=CAB06739.1;protein_id=CAB06739.1
+Z86099.2	EMBL	gene	113027	114043	.	+	.	ID=gene-UL53;Name=UL53;gbkey=Gene;gene=UL53;gene_biotype=protein_coding
+Z86099.2	EMBL	CDS	113027	114043	.	+	0	ID=cds-CAB06740.1;Parent=gene-UL53;Dbxref=GOA:P22485,InterPro:IPR002567,UniProtKB/Swiss-Prot:P22485,NCBI_GP:CAB06740.1;Name=CAB06740.1;gbkey=CDS;gene=UL53;product=virion glycoprotein K;protein_id=CAB06740.1
+Z86099.2	EMBL	region	114309	114314	.	+	.	ID=id-Z86099.2:114309..114314;gbkey=polyA_signal
+Z86099.2	EMBL	gene	114589	116127	.	+	.	ID=gene-UL54;Name=UL54;gbkey=Gene;gene=UL54;gene_biotype=protein_coding
+Z86099.2	EMBL	CDS	114589	116127	.	+	0	ID=cds-CAB06702.1;Parent=gene-UL54;Dbxref=GOA:P28276,InterPro:IPR008648,UniProtKB/Swiss-Prot:P28276,NCBI_GP:CAB06702.1;Name=CAB06702.1;gbkey=CDS;gene=UL54;product=CAB06702.1;protein_id=CAB06702.1
+Z86099.2	EMBL	region	116133	116138	.	+	.	ID=id-Z86099.2:116133..116138;gbkey=polyA_signal
+Z86099.2	EMBL	gene	116342	116902	.	+	.	ID=gene-UL55;Name=UL55;gbkey=Gene;gene=UL55;gene_biotype=protein_coding
+Z86099.2	EMBL	CDS	116342	116902	.	+	0	ID=cds-CAB06703.1;Parent=gene-UL55;Dbxref=GOA:P28281,InterPro:IPR007622,UniProtKB/Swiss-Prot:P28281,NCBI_GP:CAB06703.1;Name=CAB06703.1;gbkey=CDS;gene=UL55;product=CAB06703.1;protein_id=CAB06703.1
+Z86099.2	EMBL	region	116941	116946	.	+	.	ID=id-Z86099.2:116941..116946;gbkey=polyA_signal
+Z86099.2	EMBL	region	117044	117049	.	-	.	ID=id-Z86099.2:117044..117049;gbkey=polyA_signal
+Z86099.2	EMBL	gene	117075	117782	.	-	.	ID=gene-UL56;Name=UL56;gbkey=Gene;gene=UL56;gene_biotype=protein_coding
+Z86099.2	EMBL	CDS	117075	117782	.	-	0	ID=cds-CAB06704.1;Parent=gene-UL56;Dbxref=InterPro:IPR007620,UniProtKB/Swiss-Prot:P28282,NCBI_GP:CAB06704.1;Name=CAB06704.1;gbkey=CDS;gene=UL56;product=CAB06704.1;protein_id=CAB06704.1
+Z86099.2	EMBL	repeat_region	117987	118008	.	+	.	ID=id-Z86099.2:117987..118008;gbkey=repeat_region;rpt_family=1
+Z86099.2	EMBL	sequence_feature	117987	117987	.	+	.	ID=id-Z86099.2:117987..117987;Note=start of IRL (internal copy of Long Repeat region);gbkey=misc_feature
+Z86099.2	EMBL	repeat_region	118057	118203	.	+	.	ID=id-Z86099.2:118057..118203;gbkey=repeat_region;rpt_family=2
+Z86099.2	EMBL	sequence_feature	119518	119518	.	+	.	ID=id-Z86099.2:119518..119518;Note=primary transcription initiation site for latency associated transcripts (LAT's);gbkey=misc_feature
+Z86099.2	EMBL	sequence_feature	120225	120225	.	+	.	ID=id-Z86099.2:120225..120225;Note=proposed LAT splice donor site (5' end of stable LAT species);gbkey=misc_feature
+Z86099.2	EMBL	region	121627	121632	.	-	.	ID=id-Z86099.2:121627..121632;gbkey=polyA_signal
+Z86099.2	EMBL	gene	121882	124947	.	-	.	ID=gene-RL2-2;Name=RL2;gbkey=Gene;gene=RL2;gene_biotype=protein_coding
+Z86099.2	EMBL	CDS	124873	124947	.	-	0	ID=cds-CAB06705.1;Parent=gene-RL2-2;Dbxref=GOA:P89473,HSSP:1CHC,InterPro:IPR001841,InterPro:IPR013083,InterPro:IPR017907,UniProtKB/TrEMBL:P89473,NCBI_GP:CAB06705.1;Name=CAB06705.1;gbkey=CDS;gene=RL2;product=CAB06705.1;protein_id=CAB06705.1
+Z86099.2	EMBL	CDS	123785	124465	.	-	0	ID=cds-CAB06705.1;Parent=gene-RL2-2;Dbxref=GOA:P89473,HSSP:1CHC,InterPro:IPR001841,InterPro:IPR013083,InterPro:IPR017907,UniProtKB/TrEMBL:P89473,NCBI_GP:CAB06705.1;Name=CAB06705.1;gbkey=CDS;gene=RL2;product=CAB06705.1;protein_id=CAB06705.1
+Z86099.2	EMBL	CDS	121882	123606	.	-	0	ID=cds-CAB06705.1;Parent=gene-RL2-2;Dbxref=GOA:P89473,HSSP:1CHC,InterPro:IPR001841,InterPro:IPR013083,InterPro:IPR017907,UniProtKB/TrEMBL:P89473,NCBI_GP:CAB06705.1;Name=CAB06705.1;gbkey=CDS;gene=RL2;product=CAB06705.1;protein_id=CAB06705.1
+Z86099.2	EMBL	exon	121882	123606	.	-	.	ID=id-RL2-3-2;Parent=gene-RL2-2;exon_number=3;function=immediate early protein%3B modulator of cell state and gene expression;gbkey=exon;gene=RL2;number=3
+Z86099.2	EMBL	exon	123785	124465	.	-	.	ID=id-RL2-2-2;Parent=gene-RL2-2;exon_number=2;gbkey=exon;gene=RL2;number=2
+Z86099.2	EMBL	exon	124873	124947	.	-	.	ID=id-RL2-1-2;Parent=gene-RL2-2;exon_number=1;gbkey=exon;gene=RL2;number=1
+Z86099.2	EMBL	sequence_feature	122439	122439	.	+	.	ID=id-Z86099.2:122439..122439;Note=proposed LAT splice acceptor site;gbkey=misc_feature
+Z86099.2	EMBL	repeat_region	122489	122595	.	+	.	ID=id-Z86099.2:122489..122595;gbkey=repeat_region;rpt_family=3
+Z86099.2	EMBL	repeat_region	123643	123782	.	+	.	ID=id-Z86099.2:123643..123782;gbkey=repeat_region;rpt_family=4
+Z86099.2	EMBL	region	125507	125512	.	-	.	ID=id-Z86099.2:125507..125512;gbkey=polyA_signal
+Z86099.2	EMBL	gene	125871	126810	.	-	.	ID=gene-RL1-2;Name=RL1;gbkey=Gene;gene=RL1;gene_biotype=protein_coding
+Z86099.2	EMBL	CDS	126316	126810	.	-	0	ID=cds-CAB06706.1;Parent=gene-RL1-2;Dbxref=GOA:P28283,InterPro:IPR019523,UniProtKB/Swiss-Prot:P28283,NCBI_GP:CAB06706.1;Name=CAB06706.1;gbkey=CDS;gene=RL1;product=CAB06706.1;protein_id=CAB06706.1
+Z86099.2	EMBL	CDS	125871	126161	.	-	0	ID=cds-CAB06706.1;Parent=gene-RL1-2;Dbxref=GOA:P28283,InterPro:IPR019523,UniProtKB/Swiss-Prot:P28283,NCBI_GP:CAB06706.1;Name=CAB06706.1;gbkey=CDS;gene=RL1;product=CAB06706.1;protein_id=CAB06706.1
+Z86099.2	EMBL	exon	125874	126161	.	-	.	ID=id-RL1-2-2;Parent=gene-RL1-2;exon_number=2;gbkey=exon;gene=RL1;number=2;product=neurovirulence factor
+Z86099.2	EMBL	exon	126316	126810	.	-	.	ID=id-RL1-1-2;Parent=gene-RL1-2;exon_number=1;gbkey=exon;gene=RL1;number=1
+Z86099.2	EMBL	repeat_region	126180	126307	.	+	.	ID=id-Z86099.2:126180..126307;gbkey=repeat_region;rpt_family=5
+Z86099.2	EMBL	repeat_region	126704	126765	.	+	.	ID=id-Z86099.2:126704..126765;gbkey=repeat_region;rpt_family=6
+Z86099.2	EMBL	repeat_region	126766	126804	.	+	.	ID=id-Z86099.2:126766..126804;gbkey=repeat_region;rpt_family=7
+Z86099.2	EMBL	sequence_feature	126996	127249	.	+	.	ID=id-Z86099.2:126996..127249;Note=a' sequence;gbkey=misc_feature
+Z86099.2	EMBL	sequence_feature	127250	127250	.	+	.	ID=id-Z86099.2:127250..127250;Note=start of IRS (internal copy of Short Repeat region);gbkey=misc_feature
+Z86099.2	EMBL	region	127917	127922	.	+	.	ID=id-Z86099.2:127917..127922;gbkey=polyA_signal
+Z86099.2	EMBL	region	127957	127962	.	-	.	ID=id-Z86099.2:127957..127962;gbkey=polyA_signal
+Z86099.2	EMBL	gene	128076	132032	.	-	.	ID=gene-RS1;Name=RS1;gbkey=Gene;gene=RS1;gene_biotype=protein_coding
+Z86099.2	EMBL	CDS	128076	132032	.	-	0	ID=cds-CAB06707.1;Parent=gene-RS1;Dbxref=GOA:P90493,InterPro:IPR005205,InterPro:IPR005206,UniProtKB/Swiss-Prot:P90493,NCBI_GP:CAB06707.1;Name=CAB06707.1;gbkey=CDS;gene=RS1;product=CAB06707.1;protein_id=CAB06707.1
+Z86099.2	EMBL	origin_of_replication	132760	132761	.	+	.	ID=id-Z86099.2:132760..132761;Note=centre of oriS;end_range=132761,.;gbkey=rep_origin;partial=true;start_range=.,132760
+Z86099.2	EMBL	sequence_feature	133707	133707	.	+	.	ID=id-Z86099.2:133707..133707;Note=start of US (Short Unique region);gbkey=misc_feature
+Z86099.2	EMBL	gene	133739	134980	.	+	.	ID=gene-US1;Name=US1;gbkey=Gene;gene=US1;gene_biotype=protein_coding
+Z86099.2	EMBL	CDS	133739	134980	.	+	0	ID=cds-CAB06708.1;Parent=gene-US1;Dbxref=GOA:P89474,InterPro:IPR003403,UniProtKB/Swiss-Prot:P89474,NCBI_GP:CAB06708.1;Name=CAB06708.1;gbkey=CDS;gene=US1;product=CAB06708.1;protein_id=CAB06708.1
+Z86099.2	EMBL	region	135019	135024	.	+	.	ID=id-Z86099.2:135019..135024;gbkey=polyA_signal
+Z86099.2	EMBL	region	135144	135149	.	-	.	ID=id-Z86099.2:135144..135149;gbkey=polyA_signal
+Z86099.2	EMBL	gene	135164	136039	.	-	.	ID=gene-US2;Name=US2;gbkey=Gene;gene=US2;gene_biotype=protein_coding
+Z86099.2	EMBL	CDS	135164	136039	.	-	0	ID=cds-CAB06709.1;Parent=gene-US2;Dbxref=GOA:P13292,InterPro:IPR003485,UniProtKB/Swiss-Prot:P13292,NCBI_GP:CAB06709.1;Name=CAB06709.1;gbkey=CDS;gene=US2;product=CAB06709.1;protein_id=CAB06709.1
+Z86099.2	EMBL	gene	136325	137770	.	+	.	ID=gene-US3;Name=US3;gbkey=Gene;gene=US3;gene_biotype=protein_coding
+Z86099.2	EMBL	CDS	136325	137770	.	+	0	ID=cds-CAB06710.1;Parent=gene-US3;Dbxref=GOA:P13287,InterPro:IPR000719,InterPro:IPR008271,InterPro:IPR011009,InterPro:IPR017442,UniProtKB/Swiss-Prot:P13287,NCBI_GP:CAB06710.1;Name=CAB06710.1;gbkey=CDS;gene=US3;product=protein kinase%3B phosphorylates UL34 protein;protein_id=CAB06710.1
+Z86099.2	EMBL	gene	137878	139977	.	+	.	ID=gene-US4;Name=US4;gbkey=Gene;gene=US4;gene_biotype=protein_coding
+Z86099.2	EMBL	CDS	137878	139977	.	+	0	ID=cds-CAB06711.1;Parent=gene-US4;Dbxref=GOA:P13290,InterPro:IPR002896,UniProtKB/Swiss-Prot:P13290,NCBI_GP:CAB06711.1;Name=CAB06711.1;gbkey=CDS;gene=US4;product=virion glycoprotein G;protein_id=CAB06711.1
+Z86099.2	EMBL	region	140050	140055	.	+	.	ID=id-Z86099.2:140050..140055;gbkey=polyA_signal
+Z86099.2	EMBL	gene	140287	140565	.	+	.	ID=gene-US5;Name=US5;gbkey=Gene;gene=US5;gene_biotype=protein_coding
+Z86099.2	EMBL	CDS	140287	140565	.	+	0	ID=cds-CAB06712.1;Parent=gene-US5;Dbxref=GOA:P13293,UniProtKB/Swiss-Prot:P13293,NCBI_GP:CAB06712.1;Name=CAB06712.1;Note=proposed;gbkey=CDS;gene=US5;product=virion glycoprotein J;protein_id=CAB06712.1
+Z86099.2	EMBL	gene	141016	142197	.	+	.	ID=gene-US6;Name=US6;gbkey=Gene;gene=US6;gene_biotype=protein_coding
+Z86099.2	EMBL	CDS	141016	142197	.	+	0	ID=cds-CAB06713.1;Parent=gene-US6;Dbxref=GOA:Q69467,HSSP:2C3A,InterPro:IPR002896,UniProtKB/Swiss-Prot:Q69467,NCBI_GP:CAB06713.1;Name=CAB06713.1;gbkey=CDS;gene=US6;product=virion glycoprotein D;protein_id=CAB06713.1
+Z86099.2	EMBL	gene	142399	143517	.	+	.	ID=gene-US7;Name=US7;gbkey=Gene;gene=US7;gene_biotype=protein_coding
+Z86099.2	EMBL	CDS	142399	143517	.	+	0	ID=cds-CAB06714.1;Parent=gene-US7;Dbxref=GOA:P13291,InterPro:IPR002874,UniProtKB/Swiss-Prot:P13291,NCBI_GP:CAB06714.1;Name=CAB06714.1;gbkey=CDS;gene=US7;product=virion glycoprotein I;protein_id=CAB06714.1
+Z86099.2	EMBL	region	143587	143592	.	+	.	ID=id-Z86099.2:143587..143592;gbkey=polyA_signal
+Z86099.2	EMBL	gene	143843	145480	.	+	.	ID=gene-US8;Name=US8;gbkey=Gene;gene=US8;gene_biotype=protein_coding
+Z86099.2	EMBL	CDS	143843	145480	.	+	0	ID=cds-CAB06715.1;Parent=gene-US8;Dbxref=GOA:P89475,InterPro:IPR003404,InterPro:IPR013783,UniProtKB/Swiss-Prot:P89475,NCBI_GP:CAB06715.1;Name=CAB06715.1;gbkey=CDS;gene=US8;product=virion glycoprotein E;protein_id=CAB06715.1
+Z86099.2	EMBL	gene	145329	145769	.	+	.	ID=gene-US8A;Name=US8A;gbkey=Gene;gene=US8A;gene_biotype=protein_coding
+Z86099.2	EMBL	CDS	145329	145769	.	+	0	ID=cds-CAB06716.1;Parent=gene-US8A;Dbxref=GOA:P89476,InterPro:IPR017377,UniProtKB/Swiss-Prot:P89476,NCBI_GP:CAB06716.1;Name=CAB06716.1;gbkey=CDS;gene=US8A;product=CAB06716.1;protein_id=CAB06716.1
+Z86099.2	EMBL	gene	145867	146136	.	+	.	ID=gene-US9;Name=US9;gbkey=Gene;gene=US9;gene_biotype=protein_coding
+Z86099.2	EMBL	CDS	145867	146136	.	+	0	ID=cds-CAB06717.1;Parent=gene-US9;Dbxref=GOA:P89477,InterPro:IPR009278,UniProtKB/Swiss-Prot:P89477,NCBI_GP:CAB06717.1;Name=CAB06717.1;gbkey=CDS;gene=US9;product=tegument protein;protein_id=CAB06717.1
+Z86099.2	EMBL	region	146208	146213	.	+	.	ID=id-Z86099.2:146208..146213;gbkey=polyA_signal
+Z86099.2	EMBL	region	146618	146623	.	-	.	ID=id-Z86099.2:146618..146623;gbkey=polyA_signal
+Z86099.2	EMBL	gene	146625	147533	.	-	.	ID=gene-US10;Name=US10;gbkey=Gene;gene=US10;gene_biotype=protein_coding
+Z86099.2	EMBL	CDS	146625	147533	.	-	0	ID=cds-CAB06718.1;Parent=gene-US10;Dbxref=GOA:P89478,InterPro:IPR000714,UniProtKB/TrEMBL:P89478,NCBI_GP:CAB06718.1;Name=CAB06718.1;gbkey=CDS;gene=US10;product=virion protein;protein_id=CAB06718.1
+Z86099.2	EMBL	gene	147244	147699	.	-	.	ID=gene-US11;Name=US11;gbkey=Gene;gene=US11;gene_biotype=protein_coding
+Z86099.2	EMBL	CDS	147244	147699	.	-	0	ID=cds-CAB06719.1;Parent=gene-US11;Dbxref=GOA:P89479,InterPro:IPR020124,UniProtKB/Swiss-Prot:P89479,NCBI_GP:CAB06719.1;Name=CAB06719.1;gbkey=CDS;gene=US11;product=virion protein;protein_id=CAB06719.1
+Z86099.2	EMBL	gene	147775	148035	.	-	.	ID=gene-US12;Name=US12;gbkey=Gene;gene=US12;gene_biotype=protein_coding
+Z86099.2	EMBL	CDS	147775	148035	.	-	0	ID=cds-CAB06700.1;Parent=gene-US12;Dbxref=GOA:P14345,InterPro:IPR008026,UniProtKB/Swiss-Prot:P14345,NCBI_GP:CAB06700.1;Name=CAB06700.1;gbkey=CDS;gene=US12;product=CAB06700.1;protein_id=CAB06700.1
+Z86099.2	EMBL	sequence_feature	148036	148036	.	+	.	ID=id-Z86099.2:148036..148036;Note=start of TRS (terminal copy of Short Repeat region);gbkey=misc_feature
+Z86099.2	EMBL	origin_of_replication	148981	148982	.	+	.	ID=id-Z86099.2:148981..148982;Note=centre of oriS;gbkey=rep_origin
+Z86099.2	EMBL	gene	149710	153666	.	+	.	ID=gene-RS1-2;Name=RS1;gbkey=Gene;gene=RS1;gene_biotype=protein_coding
+Z86099.2	EMBL	CDS	149710	153666	.	+	0	ID=cds-CAB06701.1;Parent=gene-RS1-2;Dbxref=GOA:P90493,InterPro:IPR005205,InterPro:IPR005206,UniProtKB/Swiss-Prot:P90493,NCBI_GP:CAB06701.1;Name=CAB06701.1;gbkey=CDS;gene=RS1;product=CAB06701.1;protein_id=CAB06701.1
+Z86099.2	EMBL	region	153781	153786	.	+	.	ID=id-Z86099.2:153781..153786;gbkey=polyA_signal
+Z86099.2	EMBL	sequence_feature	154493	154746	.	+	.	ID=id-Z86099.2:154493..154746;Note=a sequence%3B~all polyA_signals have been identified on the basis of having HSV1 counterparts;gbkey=misc_feature
+

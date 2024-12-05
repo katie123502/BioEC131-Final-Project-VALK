@@ -36,13 +36,8 @@ build_docker_image() {
 
 run_docker_container() {
   echo "Running the Docker container..."
-  docker run -d \
-    --name $CONTAINER_NAME \
-    -p 8080:8080 \
-    -v $(pwd)/$DATA_DIR:/jbrowse/data \
-    $DOCKER_IMAGE
-
-  echo "JBrowse2 is running at http://localhost:8080"
+  docker run -d -p 8080:8080 --name $CONTAINER_NAME $DOCKER_IMAGE
+  echo "JBrowse2 is running at http://localhost:8080/jbrowse2"
 }
 
 cleanup_existing_container() {

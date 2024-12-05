@@ -8,6 +8,7 @@ Please complete the following steps in your terminal:
 ## Pre-reqs before starting:
 
 · Download Docker: https://docs.docker.com/get-started/get-docker/ 
+· Set up Apache Server: 
 
 ## 1. Clone this repo to your local computer
 
@@ -25,4 +26,4 @@ chmod +x setup.sh
 
 ## 3. Explore herpesvirus!
 
-Access JBrowse2 to explore herpesvirus at http://localhost:8080
+Access JBrowse2 to explore herpesvirus at http://localhost:8081
