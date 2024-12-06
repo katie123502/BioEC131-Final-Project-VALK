@@ -39,6 +39,21 @@ The sample data includes the reference genome files for 10 human HHV strains, 1 
 
 You can also explore an example of our working database here: https://katie123502.github.io/jbrowse2 
 
+## Genomes Explored 🔎
+
+| Virus Name	                         | NCBI accession number      |
+|-------------------------------------|----------------------------|
+| Herpes simplex virus type 1 (HSV-1) |       	X14112              |
+| Herpes simplex virus type 2 (HSV-2) |	       Z86099              |
+| Varicella-zoster virus (VZV, HHV-3) |	       X04370              |
+| Epstein–Barr virus (EBV, HHV-4)     |	       NC_007605           |
+| Human cytomegalovirusa (HCMV, HHV-5)|	       X17403              |
+| Human herpesvirus 6 (HHV-6)         |	X83413, AB021506, AF157706 |
+| Human herpesvirus 7 (HHV-7)         |	      U43400,	AF037218     |
+| Human herpesvirus 8 (HHV-8)         |	U75698,	U93872,	AF148805.2 |
+| Macaque Monkey (McHV1)              |	        AF533768.1         |
+| Mouse (MuGHV4)                      |	       U97553.2            |
+
 ## Optional: Upload your genome assemblies
 
 1. Upload the genome assembly in .fasta or .gff3 file format to the Herpes Genomes folder.
