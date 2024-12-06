@@ -41,6 +41,8 @@ You can also explore an example of our working database here: https://katie12350
 
 ## Genomes Explored 🔎
 
+If you are interested in directly viewing the genomes, you can access them using their NCBI accession numbers on https://www.ncbi.nlm.nih.gov/
+
 | Virus Name	                         | NCBI accession number      |
 |-------------------------------------|----------------------------|
 | Herpes simplex virus type 1 (HSV-1) |       	X14112              |
