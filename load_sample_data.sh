@@ -10,9 +10,8 @@ all_samples=("sample_data/HHV1_X14112" "sample_data/HHV2_Z86099" "sample_data/HH
              "sample_data/HHV8_AF148805" "sample_data/McHV1_AF533768" "sample_data/MuGHV4_U97553")
 
 # Loop through all samples
-for FILENAME in "${all_samples[@]}"; do
+for SAMPLE_NAME in "${all_samples[@]}"; do
     # Extract the sample name (everything after the last '/')
-    SAMPLE_NAME=$(basename "$FILENAME")
     
     echo "Processing sample: $SAMPLE_NAME"
     
