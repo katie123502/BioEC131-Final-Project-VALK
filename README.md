@@ -1,8 +1,6 @@
 
 # BioEC131-Final-Project-VALK
 
-## Pre-reqs before starting:
-
 ## Setup:
 Download JBrowse2: https://jbrowse.org/jb2/docs/quickstart_web/
 If you do not have JBrowse2 downloaded, see the above quickstart guide.
@@ -74,8 +72,8 @@ If you are interested in directly viewing the genomes, you can access them using
 
 ## Optional: Upload your genome assemblies
 
-1. Upload the genome assembly in .fasta or .gff3 file format to the Herpes Genomes folder.
-2. Run the data processing script in Setup Step 2 again.
+1. Upload the genome assembly in .fasta or .gff3 file format to the sample_data folder created by wget.sh.
+2. Run the data processing script in Step 2 again.
 
 ## Optional: MAFFT Whole Genome Alignment
 
