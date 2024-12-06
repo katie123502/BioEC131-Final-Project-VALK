@@ -26,10 +26,10 @@ chmod +x jbrowse2_upload_loop.sh
 chmod +x load_sample_data.sh
 ./load_sample_data.sh
 ```
-· wget.sh: obtains all the fasta and gff files for studied genomes from NCBI
-· sample_indexing.sh: indexes and processes all files
-· jbrowse2_upload_loop.sh: configures jbrowse2 with the indexed and original genome files
-· load_sample_data.sh: simplifies data processing by running the above three bash scripts
+1· wget.sh: obtains all the fasta and gff files for studied genomes from NCBI
+2· sample_indexing.sh: indexes and processes all files
+3· jbrowse2_upload_loop.sh: configures jbrowse2 with the indexed and original genome files
+4· load_sample_data.sh: simplifies data processing by running the above three bash scripts
 
 ## 3. Explore herpesvirus! 🦠
 
