@@ -18,7 +18,7 @@ fi
 
 # loop through 
 for FILE_NAME in "$@"; do
-    $SAMPLE_NAME=$(basename "$FILE_NAME")
+    SAMPLE_NAME=$(basename "$FILE_NAME")
     
     echo "Processing sample: $SAMPLE_NAME"
 
