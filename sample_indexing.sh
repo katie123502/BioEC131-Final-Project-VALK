@@ -13,7 +13,7 @@ samtools faidx "${SAMPLE_NAME}.fasta"
 echo "Finished indexing fasta file. Your indexed fasta is at "
 
 echo "Indexing and cleaning GFF3 File"
-jbrowse sort-gff "${SAMPLE_NAME}.gff3" > "${SAMPLE_NAME}_genes.gff"
+jbrowse sort-gff "${SAMPLE_NAME}.gff" > "${SAMPLE_NAME}_genes.gff"
 grep -v "^$" "${SAMPLE_NAME}_genes.gff" > "${SAMPLE_NAME}_clean_genes.gff"
 bgzip "${SAMPLE_NAME}_clean_genes.gff"
 tabix "${SAMPLE_NAME}_clean_genes.gff.gz"
