@@ -17,7 +17,7 @@ cd BioEC131-Final-Project-VALK
 ```
 
 ## 2. Run the data processing script to load a set of sample HHV genome tracks 🧑‍💻
-Run the following commands to get a set of reference HVV genomes from GenBank, dowload them to the local folder sample_data, run some basic analyses, and make them available to JBrowse.
+Run the following commands to get a set of reference HVV genomes from GenBank, download them to the local folder sample_data, run some basic analyses, and make them available to JBrowse.
 
 ```
 chmod +x wget.sh
