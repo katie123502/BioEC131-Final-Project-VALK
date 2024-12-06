@@ -39,6 +39,21 @@ The sample data includes the reference genome files for 10 human HHV strains, 1 
 
 You can also explore an example of our working database here: https://katie123502.github.io/jbrowse2 
 
+#Protein View Exploration 
+To view the structure of significant proteins in herpesvirus mechanisms, complete the following steps:
+1. In the navigation bar, select Tool > Plugin store and then scroll to the bottom to install Protein3d
+2. In the "Select a view to launch" drop down, select "Protein view" and press "Launch view"
+3. On the right hand side, select the wrench (the third option down from the top) in the option bar
+4. On the left hand side, in the "Download Structure" section, enter the PDB id(s) of your desired proteins and press apply
+5. Under the assembly tab, Apply Action > 3D Representation > Apply. Feel free to change parameters for type, color theme, and size theme as you wish.
+
+Take a look at your protein(s)!
+
+Here are some proteins that we suggest taking a look at specifically for herpesvirus:
+| Protein   | PDB ID |
+|-----------|--------|
+| sample    |  8brd  |
+
 ## Genomes Explored 🔎
 
 If you are interested in directly viewing the genomes, you can access them using their NCBI accession numbers on https://www.ncbi.nlm.nih.gov/
@@ -52,7 +67,7 @@ If you are interested in directly viewing the genomes, you can access them using
 | Human cytomegalovirusa (HCMV, HHV-5)|	       X17403              |
 | Human herpesvirus 6 (HHV-6)         |	X83413, AB021506, AF157706 |
 | Human herpesvirus 7 (HHV-7)         |	      U43400,	AF037218     |
-| Human herpesvirus 8 (HHV-8)         |	U75698,	U93872,	AF148805.2 |
+| Human herpesvirus 8 (HHV-8)         |	       	AF148805.2         |
 | Macaque Monkey (McHV1)              |	        AF533768.1         |
 | Mouse (MuGHV4)                      |	       U97553.2            |
 
