@@ -25,6 +25,8 @@ chmod +x ref_fasta_processing.sh
 Access JBrowse2 to explore herpesvirus at http://localhost:8080/jbrowse2
 See the Herpes Genomes folder for the list of reference HHV genomes from human-relevant strains.
 
+You can also explore an example of our working database here: https://katie123502.github.io/jbrowse2 
+
 ## Optional: Upload your genome assemblies
 
 1. Upload the genome assembly in .fasta or .gff3 file format to the Herpes Genomes folder.
