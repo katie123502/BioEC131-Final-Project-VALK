@@ -19,6 +19,6 @@ SAMPLE_NAME=$1
 jbrowse add-assembly "${SAMPLE_NAME}.fasta" --out "${JBROWSE2_ROOT}/jbrowse2" --load copy --force
 echo "Added ${SAMPLE_NAME}'s assembly genome to jbrowse2"
 
-jbrowse add-track "${SAMPLE_NAME}_clean_genes.gff.gz" --out "${JBROWSE2_ROOT}/jbrowse2" --load copy --assemblyNames "${SAMPLE_NAME}.fasta" --force
+jbrowse add-track "${SAMPLE_NAME}_clean_genes.gff.gz" --out "${JBROWSE2_ROOT}/jbrowse2" --load copy --assemblyNames "${SAMPLE_NAME}" --force
 jbrowse text-index --out "${JBROWSE2_ROOT}/jbrowse2" 
 echo "Added ${SAMPLE_NAME}'s genome annotation to jbrowse2"
