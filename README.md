@@ -38,3 +38,4 @@ See the Herpes Genomes folder for the list of reference HHV genomes from human-r
 ```
 mafft --6merpair --addfragments othersequences referencesequence > output
 ```
+4. R
