@@ -17,11 +17,6 @@ wget -O HHV8_AF148805.fna.gz "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/8
 wget -O McHV1_AF533768.fna.gz "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/844/145/GCF_000844145.1_ViralProj14489/GCF_000844145.1_ViralProj14489_genomic.fna.gz"
 wget -O MuGHV4_U97553.fna.gz "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/845/665/GCF_000845665.1_ViralProj14458/GCF_000845665.1_ViralProj14458_genomic.fna.gz"
 
-#.fna files
-
-wget -O HHV8_U75698.fna "https://www.ncbi.nlm.nih.gov/sviewer/viewer.cgi?db=nuccore&id=U75698&report=fasta&format=text"
-wget -O HHV8_U93872.fna "https://www.ncbi.nlm.nih.gov/sviewer/viewer.cgi?db=nuccore&id=U93872&report=fasta&format=text"
-
 #.gff.gz files
 
 wget -O HHV1_X14112.gff.gz "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/003/052/245/GCA_003052245.1_ASM305224v1/GCA_003052245.1_ASM305224v1_genomic.gff.gz"
@@ -37,10 +32,6 @@ wget -O HHV7_AF037218.gff.gz "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/8
 wget -O HHV8_AF148805.gff.gz "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/838/265/GCF_000838265.1_ViralProj14158/GCF_000838265.1_ViralProj14158_genomic.gff.gz"
 wget -O McHV1_AF533768.gff.gz "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/844/145/GCF_000844145.1_ViralProj14489/GCF_000844145.1_ViralProj14489_genomic.gff.gz"
 wget -O MuGHV4_U97553.gff.gz "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/845/665/GCF_000845665.1_ViralProj14458/GCF_000845665.1_ViralProj14458_genomic.gff.gz"
-
-#.gff files
-wget -O HHV8_U75698.gff "https://www.ncbi.nlm.nih.gov/sviewer/viewer.cgi?db=nuccore&id=U75698&report=gff&format=text"
-wget -O HHV8_U93872.gff "https://www.ncbi.nlm.nih.gov/sviewer/viewer.cgi?db=nuccore&id=U93872&report=gff&format=text"
 
 #unzip .fna.gz files
 echo "Unzipping .fna.gz files..."
