@@ -1,3 +1,6 @@
+mkdir sample_data
+cd sample_data
+
 #.fna.gz files
 
 wget -O HHV1_X14112.fna.gz "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/003/052/245/GCA_003052245.1_ASM305224v1/GCA_003052245.1_ASM305224v1_genomic.fna.gz"
