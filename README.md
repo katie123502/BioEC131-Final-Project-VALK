@@ -72,8 +72,13 @@ If you are interested in directly viewing the genomes, you can access them using
 
 ## Optional: Upload your genome assemblies
 
-1. Upload the genome assembly in .fasta or .gff3 file format to the sample_data folder created by wget.sh.
-2. Run the data processing script in Step 2 again.
+1. Upload the genome assembly in .fasta and .gff3 file format to a directory of your choice.
+2. Run the indexing and upload scripts on this file. These scripts process both the .fasta file and the annotated .gff3 file for an assembly. For example, if your file is in the folder hhv_assemblies and is named HHV1.fasta, you would run the following command (note that the .fasta or .gff3 is excluded):
+```
+./sample_indexing.sh hhv_assemblies/HHV1
+./jbrowse2_upload_loop.sh hhv_assemblies/HHV1
+```
+3. Reload JBrowse2 to view your new assembly. Make sure to open in an Incognito tab or clear your browser cache.
 
 ## Optional: MAFFT Whole Genome Alignment
 
