@@ -40,6 +40,7 @@ The sample data includes the reference genome files for 10 human HHV strains, 1 
 You can also explore an example of our working database here: https://katie123502.github.io/jbrowse2 
 
 **Protein View Exploration**
+
   *To view the structure of significant proteins in herpesvirus mechanisms, complete the following steps:*  
 1. In the navigation bar, select Tool > Plugin store and then scroll to the bottom to install Protein3d
 2. In the "Select a view to launch" drop down, select "Protein view" and press "Launch view"
