@@ -20,9 +20,7 @@ wget -O MuGHV4_U97553.fna.gz "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/8
 #.fna files
 
 wget -O HHV8_U75698.fna "https://www.ncbi.nlm.nih.gov/sviewer/viewer.cgi?db=nuccore&id=U75698&report=fasta&format=text"
-gzip HHV8_U75698.fna
 wget -O HHV8_U93872.fna "https://www.ncbi.nlm.nih.gov/sviewer/viewer.cgi?db=nuccore&id=U93872&report=fasta&format=text"
-gzip HHV8_U93872.fna
 
 #.gff.gz files
 
@@ -42,8 +40,24 @@ wget -O MuGHV4_U97553.gff.gz "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/8
 
 #.gff files
 wget -O HHV8_U75698.gff "https://www.ncbi.nlm.nih.gov/sviewer/viewer.cgi?db=nuccore&id=U75698&report=gff&format=text"
-gzip HHV8_U75698.gff
 wget -O HHV8_U93872.gff "https://www.ncbi.nlm.nih.gov/sviewer/viewer.cgi?db=nuccore&id=U93872&report=gff&format=text"
-gzip HHV8_U93872.gff
 
+#unzip .fna.gz files
+echo "Unzipping .fna.gz files..."
+for file in *.fna.gz; do
+    if [ -f "$file" ]; then
+        echo "Unzipping $file..."
+        gunzip "$file"
+    fi
+done
 
+#unzip .gff.gz files
+echo "Unzipping .gff.gz files..."
+for file in *.gff.gz; do
+    if [ -f "$file" ]; then
+        echo "Unzipping $file..."
+        gunzip "$file"
+    fi
+done
+
+echo "All files unzipped successfully!"

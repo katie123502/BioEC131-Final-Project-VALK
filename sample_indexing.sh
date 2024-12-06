@@ -9,7 +9,7 @@ fi
 SAMPLE_NAME=$1
 
 echo "Indexing fasta file"
-samtools faidx "${SAMPLE_NAME}.fasta"
+samtools faidx "${SAMPLE_NAME}.fna"
 echo "Finished indexing fasta file. Your indexed fasta is at "
 
 echo "Indexing and cleaning GFF3 File"
