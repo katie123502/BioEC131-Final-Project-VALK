@@ -32,3 +32,9 @@ See the Herpes Genomes folder for the list of reference HHV genomes from human-r
 
 ## Optional: MAFFT Whole Genome Alignment
 
+1. Download MAFFT for your OS: https://mafft.cbrc.jp/alignment/software/source.html 
+2. hhv_whole_alignment.fasta contains an example alignment with HHV1 as the reference genome.
+3. Run the following command to generate a new alignment.
+```
+mafft --6merpair --addfragments othersequences referencesequence > output
+```
