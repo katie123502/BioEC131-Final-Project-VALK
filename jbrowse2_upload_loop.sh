@@ -23,7 +23,7 @@ for FILE_NAME in "$@"; do
     echo "Processing sample: $SAMPLE_NAME"
 
     # Add the assembly
-    jbrowse add-assembly "${FILE_NAME}.fasta" --out "${JBROWSE2_ROOT}/jbrowse2" --load copy --force
+    jbrowse add-assembly "${FILE_NAME}.fna" --out "${JBROWSE2_ROOT}/jbrowse2" --load copy --force
     echo "Added ${SAMPLE_NAME}'s assembly genome to jbrowse2"
 
     # Add the track
