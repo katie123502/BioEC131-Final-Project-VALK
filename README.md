@@ -15,7 +15,7 @@ cd BioEC131-Final-Project-VALK
 ```
 
 ## 2. Run the data processing script to load a set of sample HHV genome tracks 🧑‍💻
-Run the following commands to get a set of reference HVV genomes from GenBank, download them to the local folder sample_data, run some basic analyses, and make them available to JBrowse.
+Run the following commands to get a set of reference HVV genomes from GenBank, download them to the local folder ```sample_data```, run some basic analyses, and make them available to JBrowse.
 
 ```
 chmod +x wget.sh
@@ -24,10 +24,10 @@ chmod +x jbrowse2_upload_loop.sh
 chmod +x load_sample_data.sh
 ./load_sample_data.sh
 ```
-  **wget.sh**: obtains all the fasta and gff files for studied genomes from NCBI  
-  **sample_indexing.sh**: indexes and processes all files  
-  **jbrowse2_upload_loop.sh**: configures jbrowse2 with the indexed and original genome files  
-  **load_sample_data.sh**: simplifies data processing by running the above three bash scripts  
+  **```wget.sh```**: obtains all the fasta and gff files for studied genomes from NCBI  
+  **```sample_indexing.sh```**: indexes and processes all files  
+  **```jbrowse2_upload_loop.sh```**: configures jbrowse2 with the indexed and original genome files  
+  **```load_sample_data.sh```**: simplifies data processing by running the above three bash scripts  
 
 ## 3. Explore herpesvirus! 🦠
 
@@ -39,7 +39,7 @@ The sample data includes the reference genome files for 10 human HHV strains, 1 
 
 **MSA View** 🌳
 
-The sample data includes two example results of MAFFT whole genome alignment between strains that can be visualized on the JBrowse MSA view. In order to visualize these alignmnents, first ensure that your JBrowse has the MSA plugin installed. See the setup section for installation instructions for plugins. Once MSA view is launched, select the appropriate alignment file from the '''sample_data''' folder. The file '''hhv1_hhv2.fna''' contains the alignment for the HHV1 and HHV2 strain genomes, and the file '''hhv6b.fna''' contains the alignment for the two HHV6B strain genomes. Once you select a file, click Open to launch the MSA view.
+The sample data includes two example results of MAFFT whole genome alignment between strains that can be visualized on the JBrowse MSA view. In order to visualize these alignmnents, first ensure that your JBrowse has the MSA plugin installed. See the setup section for installation instructions for plugins. Once MSA view is launched, select the appropriate alignment file from the ```sample_data``` folder. The file ```hhv1_hhv2.fna``` contains the alignment for the HHV1 and HHV2 strain genomes, and the file ```hhv6b.fna``` contains the alignment for the two HHV6B strain genomes. Once you select a file, click Open to launch the MSA view.
 
 **Protein View Exploration** 👀
 
@@ -84,11 +84,16 @@ If you are interested in directly viewing the genomes, you can access them using
 ```
 3. Reload JBrowse2 to view your new assembly. Make sure to open in an Incognito tab or clear your browser cache.
 
-## Optional: MAFFT Whole Genome Alignment
+## Optional: Run your own MAFFT Whole Genome Alignments
 
 1. Download MAFFT for your OS: https://mafft.cbrc.jp/alignment/software/source.html 
-2. hhv_whole_alignment.fasta contains an example alignment with HHV1 as the reference genome.
-3. Run the following command to generate a new alignment.
+2. Run the following command to generate a new alignment. Replace ```othersequences``` with a .fasta or .fna file containing the sequences to align to the reference, ```referencessequence``` with the .fasta/.fna file of the reference sequence, and ```output``` with the desired output file path.
 ```
 mafft --6merpair --addfragments othersequences referencesequence > output
 ```
+3. Run the indexing and upload scripts on your output file to make them available to JBrowse.
+```
+./sample_indexing.sh output
+./jbrowse2_upload_loop.sh output
+```
+4. Follow the instructions in the Exploration section to open MSAView.
