@@ -34,9 +34,11 @@ chmod +x load_sample_data.sh
 Access JBrowse2 to explore herpesvirus at http://localhost:8080/jbrowse2. Make sure to clear your browser cache first or open in Incognito Mode. You can also explore an example of our working database here: https://katie123502.github.io/jbrowse2 
 
 **Genome View** 🧬
+
 The sample data includes the reference genome files for 10 human HHV strains, 1 mouse HHV strain, and 1 macaque HHV strain, which can be visualized in the Linear Genome View. 
 
 **MSA View** 🌳
+
 The sample data includes two example results of MAFFT whole genome alignment between strains that can be visualized on the JBrowse MSA view. In order to visualize these alignmnents, first ensure that your JBrowse has the MSA plugin installed. See the setup section for installation instructions for plugins. Once MSA view is launched, select the appropriate alignment file from the '''sample_data''' folder. The file '''hhv1_hhv2.fna''' contains the alignment for the HHV1 and HHV2 strain genomes, and the file '''hhv6b.fna''' contains the alignment for the two HHV6B strain genomes. Once you select a file, click Open to launch the MSA view.
 
 **Protein View Exploration** 👀
