@@ -29,7 +29,24 @@ for SAMPLE_NAME in "${all_samples[@]}"; do
         exit 1
     fi
 
-    echo "Finished processing sample: $SAMPLE_NAME"
+    echo "Finished processing sample genome: $SAMPLE_NAME"
 done
 
-echo "All samples processed successfully!"
+echo "All sample genomes processed successfully!"
+
+echo "Running MAFFT whole genome alignment for HHV1 and HHV2"
+
+mafft --6merpair --addfragments sample_data/HHV2_Z86099.fna sample_data/HHV1_X14112.fna > sample_data/hhv1_hhv2.fna 
+./sample_indexing.sh sample_data/hhv1_hhv2
+./jbrowse2_upload_loop.sh sample_data/hhv1_hhv2
+
+echo "Finished and loaded MSA for HHV1 and HHV2"
+
+echo "Running MAFFT whole genome alignment for HHV6_AB021506 and HHV6_AF157706"
+
+mafft --6merpair --addfragments sample_data/HHV6_AF157706.fna sample_data/HHV6_AB021506.fna > sample_data/hhv6b.fna 
+./sample_indexing.sh sample_data/hhv6b
+./jbrowse2_upload_loop.sh sample_data/hhv6b
+
+echo "Finished and loaded MSA for HHV6_AB021506 and HHV6_AF157706"
+
