@@ -53,9 +53,13 @@ The sample data includes two example results of MAFFT whole genome alignment bet
 Take a look at your protein(s)!
 
 Here are some proteins that we suggest taking a look at specifically for herpesvirus:
-| Protein   | PDB ID |
-|-----------|--------|
-| sample    |  8brd  |
+| Protein        | PDB ID |  Description                       | Relevant Strains            |
+|----------------|--------|------------------------------------|-----------------------------|
+| gB (UL27)      |  2GUM  |  External domain of Glycoprotein B | All strains                 |
+| UL30           |  8EXX  |  DNA polymerase (bound to DNA)     | All strains                 |
+| gH, gL         |  3M1C  |  Glycoprotein H/L complex          | Differentiates HHV-1, HHV-2 |
+| IE-2 (UL89/90) |  5WX8  |  DNA binding protein, C-term       | In HHV6A/B, not in HHV7     |
+| K3 protease    |  1VYX  |  Protease, N-term                  | HHV8, MuGHV4                |
 
 ## Genomes Explored 🔎
 
