@@ -65,18 +65,19 @@ Here are some proteins that we suggest taking a look at specifically for herpesv
 
 If you are interested in directly viewing the genomes, you can access them using their NCBI accession numbers on https://www.ncbi.nlm.nih.gov/
 
-| Virus Name	                         | NCBI accession number      |
-|-------------------------------------|----------------------------|
-| Herpes simplex virus type 1 (HSV-1) |       	X14112              |
-| Herpes simplex virus type 2 (HSV-2) |	       Z86099              |
-| Varicella-zoster virus (VZV, HHV-3) |	       X04370              |
-| Epstein–Barr virus (EBV, HHV-4)     |	       NC_007605           |
-| Human cytomegalovirusa (HCMV, HHV-5)|	       X17403              |
-| Human herpesvirus 6 (HHV-6)         |	X83413, AB021506, AF157706 |
-| Human herpesvirus 7 (HHV-7)         |	      U43400,	AF037218     |
-| Human herpesvirus 8 (HHV-8)         |	       	AF148805.2         |
-| Macaque Monkey (McHV1)              |	        AF533768.1         |
-| Mouse (MuGHV4)                      |	       U97553.2            |
+| Virus Name	                         | NCBI accession number  |
+|-------------------------------------|------------------------|
+| Herpes simplex virus type 1 (HSV-1) |       	X14112          |
+| Herpes simplex virus type 2 (HSV-2) |	       Z86099          |
+| Varicella-zoster virus (VZV, HHV-3) |	       X04370          |
+| Epstein–Barr virus (EBV, HHV-4)     |	       NC_007605       |
+| Human cytomegalovirusa (HCMV, HHV-5)|	       X17403          |
+| Human herpesvirus 6A (HHV-6A)       |	       X83413          |
+| Human herpesvirus 6B (HHV-6B)       |	  AB021506, AF157706   |
+| Human herpesvirus 7 (HHV-7)         |    U43400,	AF037218    |
+| Human herpesvirus 8 (HHV-8)         |	       AF148805.2      |
+| Macaque Monkey (McHV1)              |	       AF533768.1      |
+| Mouse (MuGHV4)                      |	       U97553.2        |
 
 ## Optional: Upload your genome assemblies
 
@@ -95,7 +96,7 @@ If you are interested in directly viewing the genomes, you can access them using
 ```
 mafft --6merpair --addfragments othersequences referencesequence > output
 ```
-3. Run the indexing and upload scripts on your output file to make them available to JBrowse.
+3. Run the indexing and upload scripts on your output file to make them available to JBrowse. Make sure to use the full file path to your output files.
 ```
 ./sample_indexing.sh output
 ./jbrowse2_upload_loop.sh output
