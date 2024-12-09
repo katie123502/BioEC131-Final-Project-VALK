@@ -33,4 +33,4 @@ for FILE_NAME in "$@"; do
     echo "Added ${SAMPLE_NAME}'s genome annotation to jbrowse2"
 done
 
-jbrowse text-index --out "${JBROWSE2_ROOT}/jbrowse2"
+jbrowse text-index --out "${JBROWSE2_ROOT}/jbrowse2" --force
