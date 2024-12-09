@@ -67,8 +67,8 @@ If you are interested in directly viewing the genomes, you can access them using
 
 | Virus Name	                         | NCBI accession number  |
 |-------------------------------------|------------------------|
-| Herpes simplex virus type 1 (HSV-1) |       	X14112          |
-| Herpes simplex virus type 2 (HSV-2) |	       Z86099          |
+| Herpes simplex virus type 1 (HSV-1, HHV-1) |       	X14112          |
+| Herpes simplex virus type 2 (HSV-2, HHV-2) |	       Z86099          |
 | Varicella-zoster virus (VZV, HHV-3) |	       X04370          |
 | Epstein–Barr virus (EBV, HHV-4)     |	       NC_007605       |
 | Human cytomegalovirusa (HCMV, HHV-5)|	       X17403          |
@@ -76,8 +76,8 @@ If you are interested in directly viewing the genomes, you can access them using
 | Human herpesvirus 6B (HHV-6B)       |	  AB021506, AF157706   |
 | Human herpesvirus 7 (HHV-7)         |    U43400,	AF037218    |
 | Human herpesvirus 8 (HHV-8)         |	       AF148805.2      |
-| Macaque Monkey (McHV1)              |	       AF533768.1      |
-| Mouse (MuGHV4)                      |	       U97553.2        |
+| Macaque Monkey (CeHV-1)              |	       AF533768.1      |
+| Mouse (MuHV-4)                      |	       U97553.2        |
 
 ## Optional: Upload your genome assemblies
 
