@@ -49,5 +49,3 @@ mafft --6merpair --addfragments sample_data/HHV6_AF157706.fna sample_data/HHV6_A
 ./jbrowse2_upload_loop.sh sample_data/hhv6b
 
 echo "Finished and loaded MSA for HHV6_AB021506 and HHV6_AF157706"
-
-jbrowse text-index --out "${JBROWSE2_ROOT}/jbrowse2" --force
