@@ -13,14 +13,14 @@ if [ ! -f "${SAMPLE_NAME}.fna" ]; then
     exit 1
 fi
 
+echo "Indexing ${SAMPLE_NAME} fasta"
+samtools faidx "${SAMPLE_NAME}.fna"
+echo "Finished indexing fasta file. Your indexed fasta is at "
+
 if [ ! -f "${SAMPLE_NAME}.gff" ]; then
     echo "Error: GFF file ${SAMPLE_NAME}.gff does not exist."
     exit 1
 fi
-
-echo "Indexing ${SAMPLE_NAME} fasta"
-samtools faidx "${SAMPLE_NAME}.fna"
-echo "Finished indexing fasta file. Your indexed fasta is at "
 
 echo "Indexing and cleaning GFF3 File"
 jbrowse sort-gff "${SAMPLE_NAME}.gff" > "${SAMPLE_NAME}_genes.gff"
